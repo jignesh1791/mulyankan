@@ -19,7 +19,6 @@
 *.graphql.d.ts
 *.graphqls.d.ts
 
-
 # misc
 .DS_Store
 
@@ -32,7 +31,6 @@
 
 # sitecore
 scjssconfig.json
-*.deploysecret.config
 
 # vercel
 .vercel
