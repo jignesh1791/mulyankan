@@ -7,6 +7,9 @@ SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{2ECAB269-70AF-4CAD-9EA3-3F3210BF2EA8}"
@@ -28,11 +31,11 @@ Languages:
         sitecore\jay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5dea9145-b10c-4f60-b31a-0d0172089992"
+      Value: "0dff44e7-3207-4ba3-8d1d-6f94a7afdf29"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jay
+        sitecore\hrupapara
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T062150Z
+      Value: 20231028T100703Z

@@ -1,6 +1,6 @@
 {
     "namespace": "ChakravyuhFeature",
-    "references": [],
+    "references": ["ChakravyuhFoundation"],
     "tags": ["content"],
     "items": {
         "includes": [
