@@ -6,14 +6,14 @@
         "includes": [
             {
                 "name": "templates",
-                "path": "/sitecore/templates/Feature/Chakravyuh"
+                "path": "/sitecore/templates/Feature/ChakravyuhFeature"
             }
         ]
     },
     "leprechaun": {
       "configuration": {
         "@extends": "Chakravyuh.Base", 
-        "@name": "Feature.Chakravyuh"
+        "@name": "Feature.ChakravyuhFeature"
     }
 }
 }

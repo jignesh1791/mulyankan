@@ -1,460 +1,514 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh.yml
-ID: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/Chakravyuh
-Signature: Lw5d5MDU3WWdMiWYxw+IU/eMWigelAQS0tXEMfnu4ZY=
-Modified: 638340823904223654
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Coach.yml
-ID: "6051ea20-8706-45ce-bddd-01c5686f7d34"
-Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/Coach
-Signature: vqNEUopRe9bjnAaZSSOIxGx35St1EMTSqa1UK/Z2zg8=
-Modified: 638340823904391006
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Basic Details\Age.yml
-ID: "055bf2d3-6240-4de8-9811-66dc60a0f32c"
-Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Basic Details/Age
-Signature: mL02NR+42YL8HdZ32ALq4EkwYlajVqksorvsMivHf0E=
-Modified: 638340823904823939
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Basic Details.yml
-ID: "e314d2b6-bc07-45a2-9427-acc581fc2191"
-Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Basic Details
-Signature: XQA8eBOS2H3sXEEAl3DafMcsoIkDnpzKgAEk2pXtfMw=
-Modified: 638340823904586467
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Basic Details\BattingStyle.yml
-ID: "c68bf20f-778c-41db-9d5c-0f12b4de785e"
-Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Basic Details/BattingStyle
-Signature: s5Ojx4n/5fJKx+haIqCAg4RROEo1ZA81ztu2oWYD/9Y=
-Modified: 638340823904889831
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details.yml
-ID: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details
-Signature: bXTV5PgH/gDi1T9N9C7D4M5nDKtYAi987X46LPxt3QI=
-Modified: 638340823904608664
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Basic Details\BowlingStyle.yml
-ID: "d3150b88-bd34-4317-9ca7-d9673f48625b"
-Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Basic Details/BowlingStyle
-Signature: OUerjpm0u2PHTMyWu46t4UGgZRROObzgg/d7WWzo9vA=
-Modified: 638340823904955266
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\__Standard Values.yml
-ID: "5521f128-2b3a-41ba-99b3-d72a8d82b7ed"
-Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
-Template: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/__Standard Values
-Signature: 6X9SebTHDU/0Tz0BJl+IRewNWb63vlrrrV5x90eONFM=
-Modified: 638340823905758365
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Basic Details\Dob.yml
-ID: "05e7e6c9-16d6-4e1c-a6c8-30474aa16612"
-Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Basic Details/Dob
-Signature: har9xID2lRuXFXPvNpX1u2JV/n2c0x01yrz8hSolDvA=
-Modified: 638340823904889831
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data.yml
-ID: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
-Parent: "a3dad44f-dc6e-4a17-9220-e9f077846673"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data
-Signature: 84o+fO5J3FXq8CkB0m03PqTpqh+vwHf2NR5zpJ7HtPc=
-Modified: 638340823904629793
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\Average.yml
-ID: "2a6a0f82-ff31-4852-ab9e-9e4208264c70"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/Average
-Signature: nx/H6bw9eA8z8qgsU9U2YUuBSNbiOTe3v4O98bIx0SM=
-Modified: 638340823905254682
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams\Teams Details.yml
-ID: "1550194a-c996-42ed-924c-280a8ca6d980"
-Parent: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams/Teams Details
-Signature: BTQ0wfacwl0lRJOAtHNZqNgod86O7bWVgkzzsKQeViw=
-Modified: 638340823904629793
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\Fiftys.yml
-ID: "866e5e3c-430b-4a62-a8bb-438317d304e6"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/Fiftys
-Signature: JkrnS3l7ic+hpd61KUnF0wn/P5EvYik7dZW7ONGABB0=
-Modified: 638340843833708434
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams\__Standard Values.yml
-ID: "fd44a71b-09c8-4795-8f08-ae47325bd1fa"
-Parent: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
-Template: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams/__Standard Values
-Signature: F54K+Y0PylJwOYrKNXGyxIA5OINSitxDmg64oHHcfM4=
-Modified: 638340823905873564
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\Teams.yml
-ID: "84915306-05fb-4462-8b42-2ded425509bd"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/Teams
-Signature: gI9v6rfLkEaPvcswf9g1TZ9NUWoeQ15ZoSGx+GCRyfo=
-Modified: 638340823905296172
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Banner\Data\Description.yml
-ID: "d17a1ae8-fac7-4532-b4ff-a342654ee913"
-Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data/Description
-Signature: PtBcw9P5PlWzrU66+BNZlgWEUy9FiWlr547h1Rx8meA=
-Modified: 638340823904769964
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Banner\Data\Title.yml
-ID: "b99b5aa6-e344-4e4d-a6cf-014c535875ec"
-Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data/Title
-Signature: vE0QXSmYK6jHgtB+2sZGvU4WChUL+OPn2kywEjP6YRM=
-Modified: 638340823904729507
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Coach\Coach Details\Team.yml
-ID: "dc071675-b24f-41c1-9f34-b5f79863a164"
-Parent: "8386c7c8-60b2-49d1-8256-0aa170e5672a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Coach/Coach Details/Team
-Signature: juxsceC236xcBJvF6TXSx5Vjsb9B64WftD4ijTXiNdM=
-Modified: 638340823904823939
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Coach\Coach Details\Type.yml
-ID: "4ca7a3e1-bd78-49cc-870c-3f2a47d9efc8"
-Parent: "8386c7c8-60b2-49d1-8256-0aa170e5672a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Coach/Coach Details/Type
-Signature: t6zTgrstSQCKZb1psC+9SCinn2wqFhbCsCaJes2oaV4=
-Modified: 638340823904790490
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\components\Two Column with Text and Image\__Standard Values.yml
-ID: "b72703bd-3ecd-47f4-a3e5-f74325199f64"
-Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
-Template: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
-Path: /sitecore/templates/Feature/Chakravyuh/components/Two Column with Text and Image/__Standard Values
-Signature: LiqlAnWVJrGjJAl1+aK04+WpOB709KBA40jQ1XJeXGA=
-Modified: 638340843833758449
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams\Teams Details\WorldCupWins.yml
-ID: "b4510911-4423-4659-9c9b-2b759bf907e3"
-Parent: "1550194a-c996-42ed-924c-280a8ca6d980"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams/Teams Details/WorldCupWins
-Signature: By8wXuWXU/hTv179QMhA5Kh5l3ZWotcLxoXLIPu4AhA=
-Modified: 638340823905758365
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players.yml
-ID: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
-Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/Players
-Signature: n3zVLfXxssXLM6PN0uWduWDf9+EpAuRLdvBXuiWLDsM=
-Modified: 638340823904434834
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\IsCaptain.yml
-ID: "64fb77a6-6a64-4041-9415-d609ce0a387c"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/IsCaptain
-Signature: SbswHbdlOEDJHCVwDiwdSx+lKHoeg9+uBOrZCrgik7Y=
-Modified: 638340823905130493
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\components.yml
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components.yml
 ID: "c50ae997-a6ad-4687-b029-beef1cb5632e"
 Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/Chakravyuh/components
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components
 Signature: rTlOrzetPayDObk8HOinhCI8H5ChwKVaq8FTCwYkC9k=
-Modified: 638340843833426292
+Modified: 638340860122675952
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Banner.yml
-ID: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
-Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/Banner
-Signature: M+bt3d0iaL3yARLVhQwIqrb8Ot7Jq552UIYekGbCnRw=
-Modified: 638340823904300140
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\IsWicketKeeper.yml
-ID: "0476149f-7f34-410e-8d97-d65c784ebb06"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/IsWicketKeeper
-Signature: kkGYf0OLeTn0/FmMtwPpOZO5R+bmD+aE3lP6BVdaxRo=
-Modified: 638340823905130493
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\TotalMatchesPlayed.yml
-ID: "c8381abf-5606-42f4-9cd4-915a9f50349a"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/TotalMatchesPlayed
-Signature: KAybuRv+buEGpvydFAinD6pO0f5B44Vb3jgf4kWE+9Q=
-Modified: 638340823905085788
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\HighestScore.yml
-ID: "80518b5f-b8f0-461e-b75a-2b42a680da86"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/HighestScore
-Signature: x+v6+V/W9ZdvFUSevHlBTWyQv1XovtUlGcucYIjrJpw=
-Modified: 638340823905051131
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\Team.yml
-ID: "ed042aa0-70f0-4e81-a839-10ee176a62c5"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/Team
-Signature: 5GLHiGXv6hbqrFONDaikxr64frIJSkMx0InYHKdRd9A=
-Modified: 638340843833449864
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\Type.yml
-ID: "168f2a48-5327-40d6-8808-4f97fcf8ffcf"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/Type
-Signature: WAltKQUEHTWAx6C4gTdhuGvgvRZTMqGSpHvj9FkR+Jo=
-Modified: 638340843833460015
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\Hundreds.yml
-ID: "baa093db-991b-4e10-8923-cc4a55c92b6e"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/Hundreds
-Signature: +QqD5TyfNh/LteReXlDfT7nDb62rquZDWt2MC1Vsvh0=
-Modified: 638340843833672091
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\TotalFours.yml
-ID: "7aee46b5-d6ac-4eba-a8c6-c2ffca8b234c"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/TotalFours
-Signature: Hm1JtqdPwnVC/gxJKlC1R91xNMsldlNrT0B27ylwukc=
-Modified: 638340823905037560
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams\Teams Details\Players.yml
-ID: "282e6802-4215-40df-ae77-6f6500763095"
-Parent: "1550194a-c996-42ed-924c-280a8ca6d980"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams/Teams Details/Players
-Signature: DBtzQ5nTVbzYdRqIdfYjXlx0jPUnB26Pm+vpNlMrETs=
-Modified: 638340843833738492
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\TotalRunsScored.yml
-ID: "3dc2c1e5-227e-4511-8494-50f23ebdecdc"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/TotalRunsScored
-Signature: B9BAOU4Qgwu8Sv/gf2Khl1oHRXsv0u2Sh93X01MLwnI=
-Modified: 638340823904989448
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\TotalSixes.yml
-ID: "04584bf0-1be4-4e1b-b536-6a92d34d360e"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/TotalSixes
-Signature: uzjE5GnklHb+gsg57M+Uts54nrDljn8HUvA5nYPSSjs=
-Modified: 638340823904989448
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Players\Player Details\TotalWickets.yml
-ID: "f68a0764-1f4a-43cd-ada3-51c70429fa3e"
-Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Players/Player Details/TotalWickets
-Signature: FRQzO2c8r3n+xd/VXcG2n356yNCmZoE72Qab9omBxDY=
-Modified: 638340843833728492
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search.yml
-ID: "a3dad44f-dc6e-4a17-9220-e9f077846673"
-Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/Search
-Signature: MMoPaw6TIJprO6xWTdXR/VH5X+8jry7c+T6RSro7Hqg=
-Modified: 638340823904434834
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams.yml
-ID: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
-Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams
-Signature: SdWV8W7BicLA2XzTq3pfZGmULaSgak3NTiN5tT853Yw=
-Modified: 638340823904434834
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Banner\Data.yml
-ID: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
-Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data
-Signature: o/KiILZs2apwsttI60W6oSzWaqxcxP9n5Rtvi4DZmGQ=
-Modified: 638340823904503643
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Banner\__Standard Values.yml
-ID: "b777f0cb-58cf-4f82-8147-5257c7c0a7e8"
-Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
-Template: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
-Path: /sitecore/templates/Feature/Chakravyuh/Banner/__Standard Values
-Signature: TXx1CsaT6QPBZLtX32zXuWGvFjvNwP0jrxwip0T1ZYM=
-Modified: 638340823905758365
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Coach\Coach Details.yml
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Coach\Coach Details.yml
 ID: "8386c7c8-60b2-49d1-8256-0aa170e5672a"
 Parent: "6051ea20-8706-45ce-bddd-01c5686f7d34"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Chakravyuh/Coach/Coach Details
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Coach/Coach Details
 Signature: Nchk4xm8NDmrriQrKoquVcSj0SQzpjwXDd6zSVUBGu0=
-Modified: 638340823904553431
+Modified: 638340860122750460
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Coach\__Standard Values.yml
-ID: "ca5b67a3-4dd3-49dd-9625-9ed7d6d5c3e0"
-Parent: "6051ea20-8706-45ce-bddd-01c5686f7d34"
-Template: "6051ea20-8706-45ce-bddd-01c5686f7d34"
-Path: /sitecore/templates/Feature/Chakravyuh/Coach/__Standard Values
-Signature: gtz2iuGGVb2cgNJGnRBJGGYr4JIvKpd1PRf+HhYkAJA=
-Modified: 638340823905758365
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams\__Standard Values.yml
+ID: "fd44a71b-09c8-4795-8f08-ae47325bd1fa"
+Parent: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
+Template: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams/__Standard Values
+Signature: F54K+Y0PylJwOYrKNXGyxIA5OINSitxDmg64oHHcfM4=
+Modified: 638340860123149599
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\components\Two Column with Text and Image.yml
-ID: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
-Parent: "c50ae997-a6ad-4687-b029-beef1cb5632e"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Chakravyuh/components/Two Column with Text and Image
-Signature: avy2T+SH3yDqB+/Gy7m8eYbzN+eOYeyCpff/PRy1/+w=
-Modified: 638340843833436268
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\First Column.yml
+ID: "821e842a-8911-4313-877d-f1777668919b"
+Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/First Column
+Signature: h1riOXXq3gpyrHH5I9Pv9ewHZuEYNml2z3Jv/4k6sG0=
+Modified: 638340860122794750
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\NumberOfCenturies.yml
-ID: "e1ac27c9-bbf7-49c0-a491-ad624d095139"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Basic Details\Dob.yml
+ID: "05e7e6c9-16d6-4e1c-a6c8-30474aa16612"
+Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/NumberOfCenturies
-Signature: MFnXCsk9eOFlXqES/RZbcGEKJtpWIlJgFvsIOFhAuOg=
-Modified: 638340823905620809
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Basic Details/Dob
+Signature: har9xID2lRuXFXPvNpX1u2JV/n2c0x01yrz8hSolDvA=
+Modified: 638340860122842235
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\NumberOfCenturiesFilterText.yml
-ID: "f1ef20cb-7089-41de-b9b2-7eca8401bed2"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\Team.yml
+ID: "ed042aa0-70f0-4e81-a839-10ee176a62c5"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/NumberOfCenturiesFilterText
-Signature: FEk85Nkz7kqV9vyvbvQGTg8ymOXfiZ3ob2o6tNFxyGo=
-Modified: 638340823905620809
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/Team
+Signature: 5GLHiGXv6hbqrFONDaikxr64frIJSkMx0InYHKdRd9A=
+Modified: 638340860122977663
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\NumberOfWickets.yml
-ID: "e1accf36-d4f9-4718-8683-7bc2d5d8d717"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\TotalWickets.yml
+ID: "f68a0764-1f4a-43cd-ada3-51c70429fa3e"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/NumberOfWickets
-Signature: 9MRTi051PDRS03sCz4MnB+3LotR8j6kUTszd+kAW/lA=
-Modified: 638340823905684050
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/TotalWickets
+Signature: FRQzO2c8r3n+xd/VXcG2n356yNCmZoE72Qab9omBxDY=
+Modified: 638340860122957512
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\NumberOfWicketsFilterText.yml
-ID: "a83a42b7-881a-4c1c-a6af-fd57451ae752"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/NumberOfWicketsFilterText
-Signature: e1iChrSbdIYta46S40c1NAFNvLzij3UsoRTlLsdLd/8=
-Modified: 638340823905684050
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\PlayerType.yml
-ID: "eb3d506f-8acb-42b7-8511-7faf3b1c48c9"
-Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/PlayerType
-Signature: /1VUG5V97737OjIgtVPeRKVVPb0liOaCeDsbt4wSbaM=
-Modified: 638340823905553592
----
-File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\PlayerTypeFilterText.yml
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\PlayerTypeFilterText.yml
 ID: "da2cd163-bd49-4037-b174-4c29d516b01e"
 Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/PlayerTypeFilterText
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/PlayerTypeFilterText
 Signature: 7Cu0gcXPReGR7ozFjtmWsg2A/SXTm5S2ESygRqpnj3A=
-Modified: 638340823905296172
+Modified: 638340860122997620
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Search\Data\TeamsFilterText.yml
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Coach.yml
+ID: "6051ea20-8706-45ce-bddd-01c5686f7d34"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Coach
+Signature: vqNEUopRe9bjnAaZSSOIxGx35St1EMTSqa1UK/Z2zg8=
+Modified: 638340860122696007
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text.yml
+ID: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Parent: "c50ae997-a6ad-4687-b029-beef1cb5632e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text
+Signature: avy2T+SH3yDqB+/Gy7m8eYbzN+eOYeyCpff/PRy1/+w=
+Modified: 638340860122727703
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams\Teams Details.yml
+ID: "1550194a-c996-42ed-924c-280a8ca6d980"
+Parent: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams/Teams Details
+Signature: BTQ0wfacwl0lRJOAtHNZqNgod86O7bWVgkzzsKQeViw=
+Modified: 638340860122784767
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\Second Column.yml
+ID: "f8b7403d-6b6e-4d71-bca2-1b7e72ede334"
+Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/Second Column
+Signature: ZUMSb8bvAqr0iIvg56KoJa9jP3IyL9Ih0lGD+G2jKVs=
+Modified: 638340860122794750
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\Average.yml
+ID: "2a6a0f82-ff31-4852-ab9e-9e4208264c70"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/Average
+Signature: nx/H6bw9eA8z8qgsU9U2YUuBSNbiOTe3v4O98bIx0SM=
+Modified: 638340860122967581
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\IsWicketKeeper.yml
+ID: "0476149f-7f34-410e-8d97-d65c784ebb06"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/IsWicketKeeper
+Signature: kkGYf0OLeTn0/FmMtwPpOZO5R+bmD+aE3lP6BVdaxRo=
+Modified: 638340860122932378
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\Type.yml
+ID: "168f2a48-5327-40d6-8808-4f97fcf8ffcf"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/Type
+Signature: WAltKQUEHTWAx6C4gTdhuGvgvRZTMqGSpHvj9FkR+Jo=
+Modified: 638340860122922387
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\NumberOfWicketsFilterText.yml
+ID: "a83a42b7-881a-4c1c-a6af-fd57451ae752"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/NumberOfWicketsFilterText
+Signature: e1iChrSbdIYta46S40c1NAFNvLzij3UsoRTlLsdLd/8=
+Modified: 638340860123039162
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\Second Column\titleText.yml
+ID: "a2b39fc0-daa1-4bae-aad1-3772c70d2734"
+Parent: "f8b7403d-6b6e-4d71-bca2-1b7e72ede334"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/Second Column/titleText
+Signature: KW7AGn5fiIQgcP/hRS5tT/Rw7jf9XE/isar5eXRMmZw=
+Modified: 638340860123094435
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players.yml
+ID: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players
+Signature: n3zVLfXxssXLM6PN0uWduWDf9+EpAuRLdvBXuiWLDsM=
+Modified: 638340860122696007
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Coach\__Standard Values.yml
+ID: "ca5b67a3-4dd3-49dd-9625-9ed7d6d5c3e0"
+Parent: "6051ea20-8706-45ce-bddd-01c5686f7d34"
+Template: "6051ea20-8706-45ce-bddd-01c5686f7d34"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Coach/__Standard Values
+Signature: gtz2iuGGVb2cgNJGnRBJGGYr4JIvKpd1PRf+HhYkAJA=
+Modified: 638340860123124417
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data.yml
+ID: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Parent: "a3dad44f-dc6e-4a17-9220-e9f077846673"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data
+Signature: 84o+fO5J3FXq8CkB0m03PqTpqh+vwHf2NR5zpJ7HtPc=
+Modified: 638340860122774770
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Coach\Coach Details\Type.yml
+ID: "4ca7a3e1-bd78-49cc-870c-3f2a47d9efc8"
+Parent: "8386c7c8-60b2-49d1-8256-0aa170e5672a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Coach/Coach Details/Type
+Signature: t6zTgrstSQCKZb1psC+9SCinn2wqFhbCsCaJes2oaV4=
+Modified: 638340860122820045
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Basic Details\BowlingStyle.yml
+ID: "d3150b88-bd34-4317-9ca7-d9673f48625b"
+Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Basic Details/BowlingStyle
+Signature: OUerjpm0u2PHTMyWu46t4UGgZRROObzgg/d7WWzo9vA=
+Modified: 638340860122862340
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\Hundreds.yml
+ID: "baa093db-991b-4e10-8923-cc4a55c92b6e"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/Hundreds
+Signature: +QqD5TyfNh/LteReXlDfT7nDb62rquZDWt2MC1Vsvh0=
+Modified: 638340860122942305
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\TotalRunsScored.yml
+ID: "3dc2c1e5-227e-4511-8494-50f23ebdecdc"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/TotalRunsScored
+Signature: B9BAOU4Qgwu8Sv/gf2Khl1oHRXsv0u2Sh93X01MLwnI=
+Modified: 638340860122872386
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\NumberOfWickets.yml
+ID: "e1accf36-d4f9-4718-8683-7bc2d5d8d717"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/NumberOfWickets
+Signature: 9MRTi051PDRS03sCz4MnB+3LotR8j6kUTszd+kAW/lA=
+Modified: 638340860123044228
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams\Teams Details\WorldCupWins.yml
+ID: "b4510911-4423-4659-9c9b-2b759bf907e3"
+Parent: "1550194a-c996-42ed-924c-280a8ca6d980"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams/Teams Details/WorldCupWins
+Signature: By8wXuWXU/hTv179QMhA5Kh5l3ZWotcLxoXLIPu4AhA=
+Modified: 638340860123064296
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\First Column\mediaImage.yml
+ID: "5b6aadb3-f116-4039-939d-7b9be66b2e3b"
+Parent: "821e842a-8911-4313-877d-f1777668919b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/First Column/mediaImage
+Signature: L8YUlSKKN8UzbzJOnvHEpHMn2jB9uAXfUcSLAbQe1QI=
+Modified: 638340860123084421
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Banner.yml
+ID: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner
+Signature: M+bt3d0iaL3yARLVhQwIqrb8Ot7Jq552UIYekGbCnRw=
+Modified: 638340860122685947
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search.yml
+ID: "a3dad44f-dc6e-4a17-9220-e9f077846673"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search
+Signature: MMoPaw6TIJprO6xWTdXR/VH5X+8jry7c+T6RSro7Hqg=
+Modified: 638340860122706092
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams.yml
+ID: "9a378292-d333-49e5-88f4-d06ea6fe2b47"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams
+Signature: SdWV8W7BicLA2XzTq3pfZGmULaSgak3NTiN5tT853Yw=
+Modified: 638340860122716341
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Banner\__Standard Values.yml
+ID: "b777f0cb-58cf-4f82-8147-5257c7c0a7e8"
+Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Template: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/__Standard Values
+Signature: TXx1CsaT6QPBZLtX32zXuWGvFjvNwP0jrxwip0T1ZYM=
+Modified: 638340860123114393
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Basic Details.yml
+ID: "e314d2b6-bc07-45a2-9427-acc581fc2191"
+Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Basic Details
+Signature: XQA8eBOS2H3sXEEAl3DafMcsoIkDnpzKgAEk2pXtfMw=
+Modified: 638340860122750460
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details.yml
+ID: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details
+Signature: bXTV5PgH/gDi1T9N9C7D4M5nDKtYAi987X46LPxt3QI=
+Modified: 638340860122764625
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Banner\Data\Description.yml
+ID: "d17a1ae8-fac7-4532-b4ff-a342654ee913"
+Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data/Description
+Signature: PtBcw9P5PlWzrU66+BNZlgWEUy9FiWlr547h1Rx8meA=
+Modified: 638340860122804859
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Coach\Coach Details\Team.yml
+ID: "dc071675-b24f-41c1-9f34-b5f79863a164"
+Parent: "8386c7c8-60b2-49d1-8256-0aa170e5672a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Coach/Coach Details/Team
+Signature: juxsceC236xcBJvF6TXSx5Vjsb9B64WftD4ijTXiNdM=
+Modified: 638340860122832174
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Basic Details\BattingStyle.yml
+ID: "c68bf20f-778c-41db-9d5c-0f12b4de785e"
+Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Basic Details/BattingStyle
+Signature: s5Ojx4n/5fJKx+haIqCAg4RROEo1ZA81ztu2oWYD/9Y=
+Modified: 638340860122852367
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Basic Details\Age.yml
+ID: "055bf2d3-6240-4de8-9811-66dc60a0f32c"
+Parent: "e314d2b6-bc07-45a2-9427-acc581fc2191"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Basic Details/Age
+Signature: mL02NR+42YL8HdZ32ALq4EkwYlajVqksorvsMivHf0E=
+Modified: 638340860122842235
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\IsCaptain.yml
+ID: "64fb77a6-6a64-4041-9415-d609ce0a387c"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/IsCaptain
+Signature: SbswHbdlOEDJHCVwDiwdSx+lKHoeg9+uBOrZCrgik7Y=
+Modified: 638340860122922387
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\HighestScore.yml
+ID: "80518b5f-b8f0-461e-b75a-2b42a680da86"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/HighestScore
+Signature: x+v6+V/W9ZdvFUSevHlBTWyQv1XovtUlGcucYIjrJpw=
+Modified: 638340860122902350
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\TotalSixes.yml
+ID: "04584bf0-1be4-4e1b-b536-6a92d34d360e"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/TotalSixes
+Signature: uzjE5GnklHb+gsg57M+Uts54nrDljn8HUvA5nYPSSjs=
+Modified: 638340860122882305
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\TotalFours.yml
+ID: "7aee46b5-d6ac-4eba-a8c6-c2ffca8b234c"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/TotalFours
+Signature: Hm1JtqdPwnVC/gxJKlC1R91xNMsldlNrT0B27ylwukc=
+Modified: 638340860122892313
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\PlayerType.yml
+ID: "eb3d506f-8acb-42b7-8511-7faf3b1c48c9"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/PlayerType
+Signature: /1VUG5V97737OjIgtVPeRKVVPb0liOaCeDsbt4wSbaM=
+Modified: 638340860123009045
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\NumberOfCenturies.yml
+ID: "e1ac27c9-bbf7-49c0-a491-ad624d095139"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/NumberOfCenturies
+Signature: MFnXCsk9eOFlXqES/RZbcGEKJtpWIlJgFvsIOFhAuOg=
+Modified: 638340860123029190
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\Second Column\CTA.yml
+ID: "63321c62-50e6-4ce4-9e48-bbd918ebb23c"
+Parent: "f8b7403d-6b6e-4d71-bca2-1b7e72ede334"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/Second Column/CTA
+Signature: I3rFVEGmzkDpKZ0DeAZoJKdswvDmdGI2foH+ECrM1UI=
+Modified: 638340860123104453
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\Teams.yml
+ID: "84915306-05fb-4462-8b42-2ded425509bd"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/Teams
+Signature: gI9v6rfLkEaPvcswf9g1TZ9NUWoeQ15ZoSGx+GCRyfo=
+Modified: 638340860122997620
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\Second Column\subHeading.yml
+ID: "fcbc2f6c-8d0e-442d-88bb-6f5466296e05"
+Parent: "f8b7403d-6b6e-4d71-bca2-1b7e72ede334"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/Second Column/subHeading
+Signature: 2cm0e5zPyJcJuA7qGEJLfxqe4iIzF7bQ5OnBDqH++u0=
+Modified: 638340860123094435
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\TeamsFilterText.yml
 ID: "66546dc8-5d6d-4adf-90b1-189c45a82d8a"
 Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Search/Data/TeamsFilterText
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/TeamsFilterText
 Signature: B9fCAXbetfaxZZaO9c5gE8QVY9UO4OlJQ8um+kp5Jg4=
-Modified: 638340823905270179
+Modified: 638340860122987634
 ---
 File: |
-  C:\Users\mulyankan\serialization\Features\serialization\templates\Chakravyuh\Teams\Teams Details\Coach.yml
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature.yml
+ID: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/ChakravyuhFeature
+Signature: Lw5d5MDU3WWdMiWYxw+IU/eMWigelAQS0tXEMfnu4ZY=
+Modified: 638340860122665866
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Banner\Data.yml
+ID: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data
+Signature: o/KiILZs2apwsttI60W6oSzWaqxcxP9n5Rtvi4DZmGQ=
+Modified: 638340860122740387
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\__Standard Values.yml
+ID: "5521f128-2b3a-41ba-99b3-d72a8d82b7ed"
+Parent: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
+Template: "d58fed94-7ea8-4409-a908-0d3ed6dc7a97"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/__Standard Values
+Signature: 6X9SebTHDU/0Tz0BJl+IRewNWb63vlrrrV5x90eONFM=
+Modified: 638340860123140261
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Banner\Data\Title.yml
+ID: "b99b5aa6-e344-4e4d-a6cf-014c535875ec"
+Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data/Title
+Signature: vE0QXSmYK6jHgtB+2sZGvU4WChUL+OPn2kywEjP6YRM=
+Modified: 638340860122804859
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\components\Two Column with Text\__Standard Values.yml
+ID: "b72703bd-3ecd-47f4-a3e5-f74325199f64"
+Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Template: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/__Standard Values
+Signature: 4ZDmGYuwWxZpXzTJbVI6BTIntXS/bVLsWJwW3wcDnxw=
+Modified: 638340860123149599
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\Fiftys.yml
+ID: "866e5e3c-430b-4a62-a8bb-438317d304e6"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/Fiftys
+Signature: JkrnS3l7ic+hpd61KUnF0wn/P5EvYik7dZW7ONGABB0=
+Modified: 638340860122947397
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Players\Player Details\TotalMatchesPlayed.yml
+ID: "c8381abf-5606-42f4-9cd4-915a9f50349a"
+Parent: "f60d38f5-c6a8-4b62-b580-82a1347bf6eb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Players/Player Details/TotalMatchesPlayed
+Signature: KAybuRv+buEGpvydFAinD6pO0f5B44Vb3jgf4kWE+9Q=
+Modified: 638340860122912415
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Search\Data\NumberOfCenturiesFilterText.yml
+ID: "f1ef20cb-7089-41de-b9b2-7eca8401bed2"
+Parent: "7a0dc852-acd0-4f98-a821-2fdb2fea0797"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Search/Data/NumberOfCenturiesFilterText
+Signature: FEk85Nkz7kqV9vyvbvQGTg8ymOXfiZ3ob2o6tNFxyGo=
+Modified: 638340860123019204
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams\Teams Details\Coach.yml
 ID: "2d805e6e-5c29-477e-8fca-c46f0def8555"
 Parent: "1550194a-c996-42ed-924c-280a8ca6d980"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Chakravyuh/Teams/Teams Details/Coach
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams/Teams Details/Coach
 Signature: mA65fEqqapPq9nNClxxc39Tm/f/2dQDFyFmM/Wh9+tA=
-Modified: 638340843833748475
+Modified: 638340860123064296
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\templates\ChakravyuhFeature\Teams\Teams Details\Players.yml
+ID: "282e6802-4215-40df-ae77-6f6500763095"
+Parent: "1550194a-c996-42ed-924c-280a8ca6d980"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Teams/Teams Details/Players
+Signature: DBtzQ5nTVbzYdRqIdfYjXlx0jPUnB26Pm+vpNlMrETs=
+Modified: 638340860123054296
