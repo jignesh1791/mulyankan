@@ -28,9 +28,9 @@ import { getItems, watchItems } from './utils';
 */
 
 const componentFactoryPath = path.resolve('src/temp/componentFactory.ts');
-const componentRootPath = 'src/components';
+const componentRootPath = 'src/components/authorable';
 
-// Matches TypeScript files that are not type definition files (name.d.ts) or storybook stories (name.stories.tsx)
+// Dont include stories, mock data, tests or reference components
 const fileFormat = new RegExp(
   /(.+)(?<!\.d)(?<!\.mock-data)(?<!\.stories)(?<!\.test)(?<!\.graphql)\.tsx?$/
 );
