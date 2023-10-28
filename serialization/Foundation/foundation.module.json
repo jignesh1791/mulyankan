@@ -1,19 +1,18 @@
 {
-    "namespace": "ChakravyuhFeature",
-    "references": ["ChakravyuhFoundation"],
+    "namespace": "ChakravyuhFoundation",
     "tags": ["content"],
     "items": {
         "includes": [
             {
                 "name": "templates",
-                "path": "/sitecore/templates/Feature/ChakravyuhFeature"
+                "path": "/sitecore/templates/Foundation/ChakravyuhFoundation"
             }
         ]
     },
     "leprechaun": {
       "configuration": {
         "@extends": "Chakravyuh.Base", 
-        "@name": "Feature.ChakravyuhFeature"
+        "@name": "Foundation.ChakravyuhFoundation"
     }
 }
 }
