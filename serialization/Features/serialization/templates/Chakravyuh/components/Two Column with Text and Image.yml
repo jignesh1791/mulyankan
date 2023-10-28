@@ -1,21 +1,18 @@
 ﻿---
-ID: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
-Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
+ID: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Parent: "c50ae997-a6ad-4687-b029-beef1cb5632e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/Chakravyuh/__News Detail
+Path: /sitecore/templates/Feature/Chakravyuh/components/Two Column with Text and Image
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/document_orientation_landscape.png
+  Value: Office/32x32/object_alignment_vertical.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 800
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{367223F0-2BFE-400C-A872-CEA06DB433AC}"
+  Value: "{B72703BD-3ECD-47F4-A3E5-F74325199F64}"
 Languages:
 - Language: en
   Versions:
@@ -23,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T062744Z
+      Value: 20231028T095728Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,11 +31,11 @@ Languages:
         sitecore\hrupapara
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f794928-8d3d-49d4-ab91-c5c8c4f66648"
+      Value: "87db03ff-0f34-46ca-8cf4-56d5d4d88ad6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\hrupapara
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T100703Z
+      Value: 20231028T095838Z
