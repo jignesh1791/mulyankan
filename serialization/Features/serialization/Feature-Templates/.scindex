@@ -1,0 +1,55 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh\Banner\Data.yml
+ID: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data
+Signature: o/KiILZs2apwsttI60W6oSzWaqxcxP9n5Rtvi4DZmGQ=
+Modified: 638340145515380085
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh\Banner\__Standard Values.yml
+ID: "b777f0cb-58cf-4f82-8147-5257c7c0a7e8"
+Parent: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Template: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Path: /sitecore/templates/Feature/Chakravyuh/Banner/__Standard Values
+Signature: TXx1CsaT6QPBZLtX32zXuWGvFjvNwP0jrxwip0T1ZYM=
+Modified: 638340145515380085
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh.yml
+ID: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/Chakravyuh
+Signature: Lw5d5MDU3WWdMiWYxw+IU/eMWigelAQS0tXEMfnu4ZY=
+Modified: 638340145515380085
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh\Banner.yml
+ID: "dba4c229-6a4d-4a39-a86f-13fa8e435605"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Chakravyuh/Banner
+Signature: M+bt3d0iaL3yARLVhQwIqrb8Ot7Jq552UIYekGbCnRw=
+Modified: 638340145515380085
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh\Banner\Data\Description.yml
+ID: "d17a1ae8-fac7-4532-b4ff-a342654ee913"
+Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data/Description
+Signature: PtBcw9P5PlWzrU66+BNZlgWEUy9FiWlr547h1Rx8meA=
+Modified: 638340145515380085
+---
+File: |
+  C:\Users\mulyankan\serialization\Features\serialization\Feature-Templates\Chakravyuh\Banner\Data\Title.yml
+ID: "b99b5aa6-e344-4e4d-a6cf-014c535875ec"
+Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Chakravyuh/Banner/Data/Title
+Signature: vE0QXSmYK6jHgtB+2sZGvU4WChUL+OPn2kywEjP6YRM=
+Modified: 638340145515380085

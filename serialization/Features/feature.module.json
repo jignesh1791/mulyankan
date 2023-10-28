@@ -1,0 +1,19 @@
+{
+    "namespace": "Mulyankan",
+    "references": [],
+    "tags": ["content"],
+    "items": {
+        "includes": [
+            {
+                "name": "Feature-Templates",
+                "path": "/sitecore/templates/Feature/Chakravyuh"
+            }
+        ]
+    },
+    "leprechaun": {
+      "configuration": {
+        "@extends": "Chakravyuh.jss.Base", 
+        "@name": "Feature-Templates"
+    }
+}
+}
