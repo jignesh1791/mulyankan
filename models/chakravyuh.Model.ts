@@ -15,7 +15,7 @@ import { ComponentRendering, RouteData, Field, ImageField, FileField, LinkField 
 import { DefaultComponentProps } from '@/lib/component-props';
 
 
-export namespace $(layer).$(module).Sitecore.templates.Chakravyuh.Fields {
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
     export type Banner = { 
         fields?: { 
             /**
@@ -27,6 +27,408 @@ export namespace $(layer).$(module).Sitecore.templates.Chakravyuh.Fields {
             * Represents the Title field (b99b5aa6-e344-4e4d-a6cf-014c535875ec).
             */
             Title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Coach = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Name & 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Image & { 
+        fields?: { 
+            /**
+            * Represents the Image field (5661aa3d-ca2c-4ca5-a981-92e231b9b54b).
+            */
+            Image: ImageField;
+
+            /**
+            * Represents the Team field (dc071675-b24f-41c1-9f34-b5f79863a164).
+            */
+            Team?: Sitecore.Override.ItemEx;
+
+            /**
+            * Represents the Type field (4ca7a3e1-bd78-49cc-870c-3f2a47d9efc8).
+            */
+            Type?: Sitecore.Override.ItemEx;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type CustomNewsPage = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.NewsList & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type HeadlessSite = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type HeadlessTenant = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type JssSettings = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type NewsDetailPage = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.NewsDetail & { 
+        fields?: { 
+            /**
+            * Represents the Title field (600f450d-cedc-4f89-8944-70e9b2e044b6).
+            */
+            Title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Page = { 
+        fields?: { 
+            /**
+            * Represents the Content field (07105f3f-e0f6-474d-8c41-676db7210c76).
+            */
+            Content: Field<string>;
+
+            /**
+            * Represents the Title field (9af5b5e7-f097-40d5-a40e-98bd731a1ad9).
+            */
+            Title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type PageDesignFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type PageDesigns = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type PartialDesignFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type PartialDesigns = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type PlayerDetails = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Players & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Players = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Name & 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Image & 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Title & { 
+        fields?: { 
+            /**
+            * Represents the Age field (055bf2d3-6240-4de8-9811-66dc60a0f32c).
+            */
+            Age: Field<number>;
+
+            /**
+            * Represents the Average field (2a6a0f82-ff31-4852-ab9e-9e4208264c70).
+            */
+            Average: Field<number>;
+
+            /**
+            * Represents the Batting Style field (c68bf20f-778c-41db-9d5c-0f12b4de785e).
+            */
+            BattingStyle: Field<string>;
+
+            /**
+            * Represents the Bowling Style field (d3150b88-bd34-4317-9ca7-d9673f48625b).
+            */
+            BowlingStyle: Field<string>;
+
+            /**
+            * Represents the Date of Birth field (05e7e6c9-16d6-4e1c-a6c8-30474aa16612).
+            */
+            Dob: Field<string>;
+
+            /**
+            * Represents the Highest Score field (80518b5f-b8f0-461e-b75a-2b42a680da86).
+            */
+            HighestScore: Field<string>;
+
+            /**
+            * Represents the IsCaptain field (64fb77a6-6a64-4041-9415-d609ce0a387c).
+            */
+            IsCaptain: Field<boolean>;
+
+            /**
+            * Represents the IsWicketKeeper field (0476149f-7f34-410e-8d97-d65c784ebb06).
+            */
+            IsWicketKeeper: Field<boolean>;
+
+            /**
+            * Represents the Total Fours field (7aee46b5-d6ac-4eba-a8c6-c2ffca8b234c).
+            */
+            TotalFours: Field<string>;
+
+            /**
+            * Represents the Total Matches Played field (c8381abf-5606-42f4-9cd4-915a9f50349a).
+            */
+            TotalMatchesPlayed: Field<string>;
+
+            /**
+            * Represents the Total Runs Scored field (3dc2c1e5-227e-4511-8494-50f23ebdecdc).
+            */
+            TotalRunsScored: Field<string>;
+
+            /**
+            * Represents the Total Sixes field (04584bf0-1be4-4e1b-b536-6a92d34d360e).
+            */
+            TotalSixes: Field<string>;
+
+            /**
+            * Represents the Total Wickets field (f68a0764-1f4a-43cd-ada3-51c70429fa3e).
+            */
+            TotalWickets: Field<number>;
+
+            /**
+            * Represents the Type field (168f2a48-5327-40d6-8808-4f97fcf8ffcf).
+            */
+            Type: Field<string>;
+
+            /**
+            * Represents the 100s field (baa093db-991b-4e10-8923-cc4a55c92b6e).
+            */
+            100s: Field<number>;
+
+            /**
+            * Represents the 50s field (866e5e3c-430b-4a62-a8bb-438317d304e6).
+            */
+            50s: Field<number>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Search = { 
+        fields?: { 
+            /**
+            * Represents the NumberOfCenturies field (e1ac27c9-bbf7-49c0-a491-ad624d095139).
+            */
+            NumberOfCenturies: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the NumberOfCenturiesFilterText field (f1ef20cb-7089-41de-b9b2-7eca8401bed2).
+            */
+            NumberOfCenturiesFilterText: Field<string>;
+
+            /**
+            * Represents the NumberOfWickets field (e1accf36-d4f9-4718-8683-7bc2d5d8d717).
+            */
+            NumberOfWickets: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the NumberOfWicketsFilterText field (a83a42b7-881a-4c1c-a6af-fd57451ae752).
+            */
+            NumberOfWicketsFilterText: Field<string>;
+
+            /**
+            * Represents the PlayerType field (eb3d506f-8acb-42b7-8511-7faf3b1c48c9).
+            */
+            PlayerType: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the PlayerTypeFilterText field (da2cd163-bd49-4037-b174-4c29d516b01e).
+            */
+            PlayerTypeFilterText: Field<string>;
+
+            /**
+            * Represents the Teams field (84915306-05fb-4462-8b42-2ded425509bd).
+            */
+            Teams: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the TeamsFilterText field (66546dc8-5d6d-4adf-90b1-189c45a82d8a).
+            */
+            TeamsFilterText: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type StyleClass = { 
+        fields?: { 
+            /**
+            * Represents the Size field (458cb3b1-e720-4b82-9c3a-ffbc2f824635).
+            */
+            Size: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Teams = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Title & 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Image & { 
+        fields?: { 
+            /**
+            * Represents the Coach field (2d805e6e-5c29-477e-8fca-c46f0def8555).
+            */
+            Coach: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the Players field (282e6802-4215-40df-ae77-6f6500763095).
+            */
+            Players: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the World Cup Wins field (b4510911-4423-4659-9c9b-2b759bf907e3).
+            */
+            WorldCupWins: Field<number>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Teams = 
+            chakravyuh.module.Sitecore.templates.Chakravyuh.Fields.Teams & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Enum = { 
+        fields?: { 
+            /**
+            * Represents the Name field (eeb6cdb4-cec6-497e-af83-b0721a971f58).
+            */
+            Name: Field<string>;
+
+            /**
+            * Represents the Value field (afadffcd-1279-46fa-8b99-0208083636ff).
+            */
+            Value: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Image = { 
+        fields?: { 
+            /**
+            * Represents the PageImage field (04a082db-8e0d-44c0-ad26-0fbab90a124c).
+            */
+            PageImage: ImageField;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Name = { 
+        fields?: { 
+            /**
+            * Represents the First Name field (89417d37-58a6-4ea9-a4e5-ea085910f828).
+            */
+            Firstname: Field<string>;
+
+            /**
+            * Represents the Last Name field (bc479562-581b-451c-af74-2986dfd073af).
+            */
+            Lastname: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type Title = { 
+        fields?: { 
+            /**
+            * Represents the PageTitle field (8ea528e0-c672-4b58-8cf6-fd5ac3e160e3).
+            */
+            PageTitle: Field<string>;
+
+            /**
+            * Represents the PageTitleSize field (5def12cf-6eda-46a6-bc0a-bcb48b6b69e5).
+            */
+            PageTitleSize?: Sitecore.Override.ItemEx;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type NewsDetail = { 
+        fields?: { 
+            /**
+            * Represents the newsReporter field (1f39ae02-22c1-4381-abcd-1a2dcc121342).
+            */
+            newsReporter: Field<string>;
+
+            /**
+            * Represents the Body - use tailwind css for body field (af4ac833-e0ff-4102-950d-e32a4ad0b70e).
+            */
+            newsSubject: Field<string>;
+
+            /**
+            * Represents the newsTitle field (e00ae5a1-a5ec-4ba0-b8f7-adfbfc823781).
+            */
+            newsTitle: Field<string>;
+
+            /**
+            * Represents the PublishingDate field (326518a6-ece3-41a9-80aa-e3f15eb6473c).
+            */
+            PublishingDate: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace chakravyuh.module.Sitecore.templates.Chakravyuh.Fields {
+    export type NewsList = { 
+        fields?: { 
+            /**
+            * Represents the addNewsItems field (f9d86793-062c-4951-9b10-663c83d05fc6).
+            */
+            addNewsItems: Field<string>;
  
         }
  }; 

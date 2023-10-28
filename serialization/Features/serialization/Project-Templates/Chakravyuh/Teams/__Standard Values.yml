@@ -1,0 +1,27 @@
+﻿---
+ID: "51f7a39a-3470-470f-a833-a32d0056f2b7"
+Parent: "beee3c47-c81d-4b3b-942d-d67c9a541c81"
+Template: "beee3c47-c81d-4b3b-942d-d67c9a541c81"
+Path: /sitecore/templates/Project/Chakravyuh/Teams/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{B126BAAC-908B-4B42-92D7-97D04424C4FA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T071330Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77445471-49ab-404a-8041-953314c7595d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\akshay
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T071348Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "367223f0-2bfe-400c-a872-cea06db433ac"
+Parent: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
+Template: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
+Path: /sitecore/templates/Foundation/Chakravyuh/__News Detail/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f39ae02-22c1-4381-abcd-1a2dcc121342"
+      Hint: newsReporter
+      Value: Chand Nawab
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T062813Z
+    - ID: "326518a6-ece3-41a9-80aa-e3f15eb6473c"
+      Hint: PublishingDate
+      Value: 20231028T070000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hrupapara
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hrupapara
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33b43c9b-81c9-4d30-99ac-9753884aa00f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hrupapara
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T071835Z
+    - ID: "e00ae5a1-a5ec-4ba0-b8f7-adfbfc823781"
+      Hint: newsTitle
+      Value: $name

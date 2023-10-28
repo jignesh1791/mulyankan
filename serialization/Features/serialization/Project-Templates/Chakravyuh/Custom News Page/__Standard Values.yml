@@ -1,0 +1,35 @@
+﻿---
+ID: "cb4b5cf5-40bc-41fd-a3c8-e045367dd3f2"
+Parent: "840eb13e-3cf8-4683-92ca-c65b5303940d"
+Template: "840eb13e-3cf8-4683-92ca-c65b5303940d"
+Path: /sitecore/templates/Project/Chakravyuh/Custom News Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{1590CF11-8C80-4F8B-8F73-4D8B2957ED51}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T070711Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hrupapara
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hrupapara
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb5f3b0e-b946-402c-9bf3-36ede5316236"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hrupapara
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T071746Z

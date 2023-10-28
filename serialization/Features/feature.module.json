@@ -7,6 +7,14 @@
             {
                 "name": "Feature-Templates",
                 "path": "/sitecore/templates/Feature/Chakravyuh"
+            },
+            {
+                "name": "Foundation-Templates",
+                "path": "/sitecore/templates/Foundation/Chakravyuh"
+            },
+            {
+                "name": "Project-Templates",
+                "path": "/sitecore/templates/Project/Chakravyuh"
             }
         ]
     },

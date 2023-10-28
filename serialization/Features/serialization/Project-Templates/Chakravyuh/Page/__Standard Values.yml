@@ -1,0 +1,42 @@
+﻿---
+ID: "054af849-06aa-4b52-8bc5-ab9a884da035"
+Parent: "8c1f9309-9b92-48c6-9ad0-18237aa68bc5"
+Template: "8c1f9309-9b92-48c6-9ad0-18237aa68bc5"
+Path: /sitecore/templates/Project/Chakravyuh/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8C1F9309-9B92-48C6-9AD0-18237AA68BC5}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {9A378292-D333-49E5-88F4-D06EA6FE2B47}
+    {840EB13E-3CF8-4683-92CA-C65B5303940D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231026T132519Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7157c59a-cdeb-4e3f-9163-d827d3988056"
+    - ID: "9af5b5e7-f097-40d5-a40e-98bd731a1ad9"
+      Hint: Title
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hrupapara
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T070728Z
