@@ -8,12 +8,12 @@ import middleware from 'lib/middleware';
 
 // eslint-disable-next-line
 export default async function (req: NextRequest, ev: NextFetchEvent) {
-  // const maintenanceMode = await get('maintenanceMode');
+  /*const maintenanceMode = await get('maintenanceMode');
 
-  // if (maintenanceMode === true) {
-  //   req.nextUrl.pathname = `/html/maintenance.html`;
-  //   return NextResponse.rewrite(req.nextUrl);
-  // }
+  if (maintenanceMode === true) {
+    req.nextUrl.pathname = `/html/maintenance.html`;
+    return NextResponse.rewrite(req.nextUrl);
+  }*/
 
   return middleware(req, ev);
 }
