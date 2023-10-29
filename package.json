@@ -45,6 +45,7 @@
     "@vercel/edge-config": "^0.2.1",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.1.3",
+    "classnames": "^2.3.2",
     "clsx": "^1.2.1",
     "css-loader": "^6.7.4",
     "font-awesome": "^4.7.0",
@@ -56,7 +57,8 @@
     "next-localization": "^0.12.0",
     "nprogress": "~0.2.0",
     "postcss-loader": "^7.3.0",
-    "style-loader": "^3.3.3"
+    "style-loader": "^3.3.3",
+    "swiper": "^11.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
@@ -67,6 +69,7 @@
     "@graphql-codegen/typescript-operations": "^1.17.9",
     "@graphql-codegen/typescript-resolvers": "^1.17.10",
     "@graphql-typed-document-node/core": "^3.1.0",
+    "@sitecore-feaas/clientside": "^0.3.17",
     "@sitecore-jss/sitecore-jss-cli": "^21.1.0",
     "@sitecore-jss/sitecore-jss-dev-tools": "^21.1.0",
     "@storybook/addon-docs": "^7.2.1",
@@ -83,6 +86,7 @@
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "14.2.0",
+    "@types/inquirer": "^9.0.3",
     "@types/jest": "^28.1.0",
     "@types/lodash": "^4.14.191",
     "@types/node": "^14.6.4",
@@ -147,7 +151,8 @@
     "next:start": "next start",
     "precommit": "yarpm-pnpm run lint:js",
     "prepare": "husky install",
-    "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component.ts",
+    "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold.ts",
+    "scaffold:component": "npm run scaffold -- component",
     "start:connected": "yarpm-pnpm run bootstrap && (yarpm-pnpm run next:dev & yarpm-pnpm run start:watch-components)",
     "start:disconnected-proxy": "ts-node --project tsconfig.scripts.json ./scripts/disconnected-mode-proxy.ts",
     "start:production": "yarpm-pnpm run bootstrap && yarpm-pnpm run next:build && yarpm-pnpm run next:start",
