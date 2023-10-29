@@ -4,22 +4,21 @@ import RichTextA11yWrapper from '../../../helpers/RichTextA11yWrapper/RichTextA1
 import Placeholder from '../../../../assets/placeholder-image.png';
 import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
 import ContainerWrapper from '@/components/helpers/ContainerWrapper/ContainerWrapper';
-// import { RootObject } from './TwoColumn.interface';
+import { RootObjectProps } from './TwoColumn.interface';
 
 //interface
 
-export default function TwoColumnWithText(props: any) {
+export default function TwoColumnWithText(props: RootObjectProps) {
   const data = props?.fields?.data?.datasource?.fields;
   const paramData = props?.params;
   const [isRevert] = useState<Boolean>(paramData?.revertColumns === '1');
   const richTextValue = data[2]?.jsonValue?.value;
+  const headingValue = data[4]?.jsonValue?.value;
   console.log('2 columns', props);
   return (
-    <ContainerWrapper className="my-8 md:my-12">
-      <div className="flex justify-center items-center my-4 md:my-8">
-        <h2 className="text-3xl text-center md:text-5xl text-[#100011]">
-          {data[4]?.jsonValue?.value}
-        </h2>
+    <ContainerWrapper data={data} className="my-8 md:my-12">
+      <div className="flex justify-center items-center my-6 md:my-12">
+        <h2 className="text-3xl text-center md:text-5xl text-[#100011]">{headingValue}</h2>
       </div>
       <div
         className={`flex flex-col justify-center items-center gap-6 md:gap-12 ${
@@ -27,7 +26,7 @@ export default function TwoColumnWithText(props: any) {
         }`}
       >
         <div className="">
-          <Image height="400" width="300" src={Placeholder} alt={data[3]?.jsonValue?.value?.src} />
+          <Image height="400" width="300" src={Placeholder} alt={data[3]?.jsonValue?.value?.alt} />
         </div>
         <div
           className={`flex flex-col gap-4 justify-center items-center ${
@@ -40,13 +39,13 @@ export default function TwoColumnWithText(props: any) {
             </h3>
           </div>
           <div className="mx-4 md:mx-0">
-            <p
+            <div
               className={`text-[#100011] text-center ${
                 isRevert ? `md:text-right` : `md:text-left`
               }`}
             >
               <RichTextA11yWrapper editable field={{ value: richTextValue }} />
-            </p>
+            </div>
           </div>
           <div>
             <Link
