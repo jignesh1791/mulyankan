@@ -1,6 +1,6 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ChakravyuhComponents } from '.generated/models/Feature.ChakravyuhFeature.model';
-import { Link ,Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // Local
 import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
@@ -42,16 +42,20 @@ const Cards = ({ fields }: cardProps): JSX.Element => {
         })}
       </div> */}
 
-<div className="grid grid-cols-12 gap-5">
-        {fields.items.map((item) => {
+      <div className="grid grid-cols-12 gap-5">
+        {fields.items.map((item, index) => {
           return (
-            <div className="flex flex-col items-center shadow-lg col-span-4">              
-              {item?.fields?.PageImage.value?.src && <Image src={item.fields.PageImage.value?.src} width={250} height={250} alt=''/>}
-              <div className='text-center pt-2 pb-2'>
-              {/* <Text fields={item.fields?.PageTitle} tag='span'/> */}
-              <h3 className='font-semibold'>{item.fields?.PageTitle.value}</h3>
-              <RichTextA11yWrapper data-testid="Cards" field={item.fields?.SubText} editable />
-              {item?.fields?.CTA?.value?.href && <Link className='text-blue-500 hover:text-red-700' field={item.fields.CTA}/>}
+            <div key={index} className="flex flex-col items-center shadow-lg col-span-4">
+              {item?.fields?.PageImage.value?.src && (
+                <Image src={item.fields.PageImage.value?.src} width={250} height={250} alt="" />
+              )}
+              <div className="text-center pt-2 pb-2">
+                {/* <Text fields={item.fields?.PageTitle} tag='span'/> */}
+                <h3 className="font-semibold">{item.fields?.PageTitle.value}</h3>
+                <RichTextA11yWrapper data-testid="Cards" field={item.fields?.SubText} editable />
+                {item?.fields?.CTA?.value?.href && (
+                  <Link className="text-blue-500 hover:text-red-700" field={item.fields.CTA} />
+                )}
               </div>
             </div>
           );

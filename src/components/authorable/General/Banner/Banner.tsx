@@ -29,10 +29,12 @@ export default function Banner(props: BannerProp) {
               <div className="mb-16 text-xl font-medium tracking-tight md:text-2xl text-gray-400">
                 <RichTextA11yWrapper editable field={{ value: rteSubValue }} />
               </div>
-              <Link
-                className="rounded border-2 border-neutral-50 px-[46px] py-[14px] text-sm md:text-xl font-semibold uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
-                field={propData?.CTA?.value}
-              />
+              {propData?.CTA?.value && (
+                <Link
+                  className="rounded border-2 border-neutral-50 px-[46px] py-[14px] text-sm md:text-xl font-semibold uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+                  field={propData?.CTA}
+                />
+              )}
             </div>
           </div>
         </div>
