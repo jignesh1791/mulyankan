@@ -40,11 +40,19 @@ const Comments = (props: CommentsProps) => {
       });
   }, []);
 
+  const uuidv4 = function () {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+      const r = (Math.random() * 16) | 0,
+        v = c == 'x' ? r : (r & 0x3) | 0x8;
+      return v.toString(16);
+    });
+  };
+
   // Submit Comment Function
   const SubmitComment = (event: any, commentitemid: string, playerFullName: string) => {
     event.preventDefault();
     const postdata = {
-      itemname: `${commentitemid}-comment`,
+      itemname: uuidv4(),
       name: playerFullName ?? '',
       description: CommentDescription?.current?.value,
       commentitemid: commentitemid,
@@ -132,7 +140,7 @@ const Comments = (props: CommentsProps) => {
                   return (
                     <article className="p-6 text-base bg-white rounded-lg dark:bg-gray-900">
                       <footer className="flex justify-between items-center mb-2">
-                        <div className="flex items-center">
+                        <div className="flex items-center w-6">
                           <p className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
                             <img src={playerImage.fields?.PageImage?.value?.src} alt="" />
                             {item?.playerName?.value}

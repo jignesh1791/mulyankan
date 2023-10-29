@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextApiHandler } from 'next';
-import { GraphQLClient } from '@/lib/graphql/graphqlclient';
+import { GraphQLSearchClient } from '@/lib/graphql/graphqlclient';
 import { CommentsResultData } from '@/models/graphql/CommentsResult';
 import FetchCommentsQuery from '@/lib/graphql/FetchCommentsQuery';
 
@@ -9,7 +9,7 @@ const handler: NextApiHandler<unknown> = async (request, response) => {
     if (request.method == 'GET') {
       const queryString = request?.query as any;
       const filterquery = FetchCommentsQuery(queryString.commentitemid);
-      const graphClient = GraphQLClient();
+      const graphClient = GraphQLSearchClient();
       const commentsData = graphClient.request<CommentsResultData>(
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         filterquery as any
