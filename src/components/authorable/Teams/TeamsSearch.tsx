@@ -42,7 +42,7 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
         console.log(data);
         if (data) {
           const resultData = data as TeamsResultSearchtData;
-          if (resultData.search.total > 0) {
+          if (resultData) {
             setPrimaryCards(resultData.search.results);
             setHasNext(resultData.search.pageInfo.hasNext);
             setEndCursor(resultData.search.pageInfo.endCursor);
@@ -99,7 +99,7 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
         console.log(data);
         if (data) {
           const resultData = data as TeamsResultSearchtData;
-          if (resultData.search.total > 0) {
+          if (resultData) {
             setPrimaryCards(resultData.search.results);
             setHasNext(resultData.search.pageInfo.hasNext);
             setEndCursor(resultData.search.pageInfo.endCursor);
@@ -128,7 +128,7 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
           console.log(data);
           if (data) {
             const resultData = data as TeamsResultSearchtData;
-            if (resultData.search.total > 0) {
+            if (resultData) {
               if (primaryCards && primaryCards != undefined) {
                 const concatdata = [...primaryCards, ...resultData.search.results];
                 setPrimaryCards(concatdata);
@@ -141,8 +141,8 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
     }
   };
   return (
-    <div className="teams-section-container">
-      <h2 className="teams-section-container-heading">Filter Teams</h2>
+    <div className="teams-section-container col-span-12">
+      <h2 className="teams-section-container-heading">Teams</h2>
       <div className="teams-section">
         <div className="filter-section basis-1/4">
           <div className="filter-option">
@@ -294,6 +294,12 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
                         {item.firstname.value} {item.lastname.value}
                       </p>
                       <p className="result-data">
+                        <b>Team:</b> {item.team?.jsonValue?.fields?.PageTitle?.value}
+                      </p>
+                      <p className="result-data">
+                        <b>Player Type:</b> {item.type?.jsonValue?.name}
+                      </p>
+                      <p className="result-data">
                         <b>Wickets:</b> {item.totalwickets.value}
                       </p>
                     </div>
@@ -302,6 +308,12 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
                     <div className="result-section-item">
                       <p className="player-name">
                         {item.firstname.value} {item.lastname.value}
+                      </p>
+                      <p className="result-data">
+                        <b>Team:</b> {item.team?.jsonValue?.fields?.PageTitle?.value}
+                      </p>
+                      <p className="result-data">
+                        <b>Player Type:</b> {item.type?.jsonValue?.name}
                       </p>
                       <p className="result-data">
                         <b>Average:</b> {item.average.value}

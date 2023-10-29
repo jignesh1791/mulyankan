@@ -49,6 +49,7 @@
     "css-loader": "^6.7.4",
     "font-awesome": "^4.7.0",
     "graphql": "~15.8.0",
+    "graphql-request": "^6.1.0",
     "graphql-tag": "^2.11.0",
     "lodash": "^4.17.21",
     "next": "^13.5.4",
