@@ -17,7 +17,8 @@ import { DefaultComponentProps } from '@/lib/component-props';
 
 
 export namespace ChakravyuhFeature.Fields {
-    export type Banner = { 
+    export type Banner = 
+            ChakravyuhFoundation.Fields.Image & { 
         fields?: { 
             /**
             * Represents the Description field (d17a1ae8-fac7-4532-b4ff-a342654ee913).
@@ -56,11 +57,6 @@ export namespace ChakravyuhComponents.Cards.Fields {
             * Represents the CTA field (10cedf5e-d8a1-4859-b065-e15623f94b73).
             */
             CTA: LinkField;
-
-            /**
-            * Represents the Image field (3299f0dc-2453-4430-904e-3864649a05a7).
-            */
-            Image: ImageField;
 
             /**
             * Represents the SubText field (ee577bfb-83e1-4bae-b6db-cfd0da64d699).
@@ -157,7 +153,7 @@ export namespace ChakravyuhFeature.Fields {
             /**
             * Represents the LinkField field (7b145c51-64c5-4840-8335-80fded7a85e5).
             */
-            LinkField: Field<string>;
+            LinkField: LinkField;
  
         }
  }; 
