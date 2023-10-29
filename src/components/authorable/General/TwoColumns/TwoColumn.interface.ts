@@ -1,6 +1,4 @@
-export interface Params {}
-
-export interface RootObject {
+export interface RootObjectProps {
   fields: {
     data: {
       datasource: {
@@ -20,10 +18,10 @@ interface Field {
 }
 
 interface JsonValue {
-  value?: Value;
+  value?: ValueProp;
 }
 
-interface Value {
+interface ValueProp {
   text?: string;
   anchor?: string;
   linktype?: string;
