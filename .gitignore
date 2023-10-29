@@ -35,3 +35,4 @@ scjssconfig.json
 
 # vercel
 .vercel
+package-lock.json
