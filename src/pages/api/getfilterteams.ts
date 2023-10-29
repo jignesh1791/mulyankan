@@ -1,6 +1,6 @@
 import { NextApiHandler } from 'next';
 import { TeamsFilterQuery } from '@/models/graphql/TeamsFilterResult';
-import { GraphQLClient } from '@/lib/graphql/graphqlclient';
+import { GraphQLSearchClient } from '@/lib/graphql/graphqlclient';
 import { TeamsResultData } from '@/models/graphql/TeamsQueryResult';
 import FetchTeamFilterQuery from '@/lib/graphql/FetchFilterTeamQuery';
 
@@ -62,10 +62,8 @@ const handler: NextApiHandler<unknown> = async (request, response) => {
     console.log('Or conditions');
     console.log(orConditions);
 
-  
-
-    const filterquery = FetchTeamFilterQuery(andConditions, orConditions,filterData.endCursor);
-    const graphClient = GraphQLClient();
+    const filterquery = FetchTeamFilterQuery(andConditions, orConditions, filterData.endCursor);
+    const graphClient = GraphQLSearchClient();
     const playerData = graphClient.request<TeamsResultData>(
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       filterquery as any

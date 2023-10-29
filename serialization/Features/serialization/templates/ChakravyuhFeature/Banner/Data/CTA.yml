@@ -1,15 +1,15 @@
 ﻿---
-ID: "b99b5aa6-e344-4e4d-a6cf-014c535875ec"
+ID: "3757710f-b76b-430f-90a4-33d5b54ef2e4"
 Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data/Title
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data/CTA
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231027T143940Z
+      Value: 20231029T063325Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,7 +28,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e98a942d-03bd-4b23-94e8-addd86402013"
+      Value: "9862cab0-f075-4eed-bc72-ac1b29d80012"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
