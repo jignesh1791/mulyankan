@@ -1,16 +1,15 @@
 import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
 import RichTextA11yWrapper from '@/components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
-import { ChakravyuhComponents } from '.generated/models/Feature.ChakravyuhFeature.model';
 import React from 'react';
-
-// export type BannerProps = ChakravyuhComponents.
 
 export default function Banner(props: any) {
   const propData = props?.fields?.data?.datasource;
   const richTitleValue = propData?.title?.value;
   const rteSubValue = propData?.description?.value;
-  const backgroundImageURL = `https://scmulyankancm.dev.local${propData?.bannerImage?.jsonValue?.value?.src}`;
-  console.log('banner', propData);
+  const backgroundImageURL = `${
+    process.env.NEXT_PUBLIC_HOST_URL + propData?.bannerImage?.jsonValue?.value?.src
+  }`;
+  console.log('banner', backgroundImageURL);
   return (
     <section className="mb-8 md:mb-24">
       <div

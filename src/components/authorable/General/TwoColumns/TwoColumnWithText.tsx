@@ -16,7 +16,7 @@ export default function TwoColumnWithText(props: RootObjectProps) {
   const headingValue = data[4]?.jsonValue?.value;
   console.log('2 columns', props);
   return (
-    <ContainerWrapper data={data} className="my-8 md:my-12">
+    <ContainerWrapper data={data} className="my-8 md:my-24">
       <div className="flex justify-center items-center my-6 md:my-12">
         <h2 className="text-3xl text-center md:text-5xl text-[#100011]">{headingValue}</h2>
       </div>
