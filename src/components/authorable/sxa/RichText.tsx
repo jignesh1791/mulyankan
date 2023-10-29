@@ -19,9 +19,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div
-      id={id ? id : undefined}
-    >
+    <div id={id ? id : undefined}>
       <div className="component-content">{text}</div>
     </div>
   );

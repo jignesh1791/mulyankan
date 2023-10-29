@@ -1,3 +1,4 @@
+// @typescript-eslint/no-explicit-any
 import React, { ReactNode, HTMLProps } from 'react';
 
 interface ContainerWrapperProps extends HTMLProps<HTMLDivElement> {

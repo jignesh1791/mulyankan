@@ -1,7 +1,5 @@
 // Global
 import type { NextRequest, NextFetchEvent } from 'next/server';
-import { NextResponse } from 'next/server';
-import { get } from '@vercel/edge-config';
 
 // Local
 import middleware from 'lib/middleware';
