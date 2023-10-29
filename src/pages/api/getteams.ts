@@ -1,12 +1,12 @@
 import { NextApiHandler } from 'next';
-import { GraphQLClient } from '@/lib/graphql/graphqlclient';
+import { GraphQLSearchClient } from '@/lib/graphql/graphqlclient';
 import { TeamsResultData } from '@/models/graphql/TeamsQueryResult';
 import FetchTeamQuery from '@/lib/graphql/FetchTeamQuery';
 
 const handler: NextApiHandler<unknown> = async (request, response) => {
   try {
     if (request.method == 'GET') {
-      const graphClient = GraphQLClient();
+      const graphClient = GraphQLSearchClient();
       const playerData = graphClient.request<TeamsResultData>(
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         FetchTeamQuery as any
