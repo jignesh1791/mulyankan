@@ -3,6 +3,7 @@ import Image from 'next/image';
 import RichTextA11yWrapper from '../../../helpers/RichTextA11yWrapper/RichTextA11yWrapper';
 import Placeholder from '../../../../assets/placeholder-image.png';
 import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import ContainerWrapper from '@/components/helpers/ContainerWrapper/ContainerWrapper';
 // import { RootObject } from './TwoColumn.interface';
 
 //interface
@@ -14,9 +15,11 @@ export default function TwoColumnWithText(props: any) {
   const richTextValue = data[2]?.jsonValue?.value;
   console.log('2 columns', props);
   return (
-    <div className="container mx-auto my-8 md:my-12">
+    <ContainerWrapper className="my-8 md:my-12">
       <div className="flex justify-center items-center my-4 md:my-8">
-        <h2 className="text-3xl md:text-5xl text-[#100011]">{data[4]?.jsonValue?.value}</h2>
+        <h2 className="text-3xl text-center md:text-5xl text-[#100011]">
+          {data[4]?.jsonValue?.value}
+        </h2>
       </div>
       <div
         className={`flex flex-col justify-center items-center gap-6 md:gap-12 ${
@@ -57,6 +60,6 @@ export default function TwoColumnWithText(props: any) {
           </div>
         </div>
       </div>
-    </div>
+    </ContainerWrapper>
   );
 }
