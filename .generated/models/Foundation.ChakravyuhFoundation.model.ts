@@ -19,9 +19,9 @@ export namespace ChakravyuhRenderingParameters.Fields {
     export type RevertView = { 
         fields?: { 
             /**
-            * Represents the Revert Columns field (bfa8075e-1946-44ca-824a-a39ca6f7793c).
+            * Represents the revertColumns field (bfa8075e-1946-44ca-824a-a39ca6f7793c).
             */
-            "Revert Columns": Field<boolean>;
+            revertColumns: Field<boolean>;
  
         }
  }; 

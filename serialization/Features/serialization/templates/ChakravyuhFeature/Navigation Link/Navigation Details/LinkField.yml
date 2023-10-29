@@ -9,7 +9,7 @@ SharedFields:
   Value: "/sitecore/content/Mulyankan/jss-starter-jss/Home"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: link
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -34,11 +34,11 @@ Languages:
         sitecore\jay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b42fff0-f2ce-45aa-9a61-a2c2f1afa4bc"
+      Value: "5f16730f-ebda-4bf4-8b71-fd350bfa8990"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jay
+        sitecore\him
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T130727Z
+      Value: 20231029T050835Z
