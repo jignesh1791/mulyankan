@@ -1,0 +1,44 @@
+﻿---
+ID: "11f5decb-583b-4832-abc4-3721cb7787a9"
+Parent: "b172d79b-4f0e-4be7-b48b-b79d08b150d8"
+Template: "b172d79b-4f0e-4be7-b48b-b79d08b150d8"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Cards/CarouselCard/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "10cedf5e-d8a1-4859-b065-e15623f94b73"
+      Hint: CTA
+      Value: |
+        <link text="Read More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T135453Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5def12cf-6eda-46a6-bc0a-bcb48b6b69e5"
+      Hint: PageTitleSize
+      Value: "{A805265E-1AE0-4FEB-85F3-D736165E80F7}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea1a6e8e-2d36-4491-a13a-2887a405b951"
+    - ID: "8ea528e0-c672-4b58-8cf6-fd5ac3e160e3"
+      Hint: PageTitle
+      Value: Title Goes Here...
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T135550Z
+    - ID: "ee577bfb-83e1-4bae-b6db-cfd0da64d699"
+      Hint: SubText
+      Value: <p>Description Goes Here...</p>

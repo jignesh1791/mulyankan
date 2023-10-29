@@ -1,0 +1,45 @@
+﻿---
+ID: "b72703bd-3ecd-47f4-a3e5-f74325199f64"
+Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Template: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column/Two Column with Text/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T095838Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hrupapara
+    - ID: "5b6aadb3-f116-4039-939d-7b9be66b2e3b"
+      Hint: mediaImage
+      Value: |
+        <image mediaid="{BF04D1CD-C831-4F4B-BF85-B74796C4A2CC}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hrupapara
+    - ID: "63321c62-50e6-4ce4-9e48-bbd918ebb23c"
+      Hint: CTA
+      Value: |
+        <link text="Read More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{07765739-9836-4A17-BF4C-D12B5E2C1AEC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6676126b-8983-4d31-9b9b-28c3c923742a"
+    - ID: "a2b39fc0-daa1-4bae-aad1-3772c70d2734"
+      Hint: titleText
+      Value: This is some title
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hrupapara
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T103854Z
+    - ID: "fcbc2f6c-8d0e-442d-88bb-6f5466296e05"
+      Hint: subHeading
+      Value: <p>This are some sub headings which can be edited from Sitecore.</p>

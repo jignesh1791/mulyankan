@@ -1,17 +1,12 @@
 ﻿---
-ID: "5593ab38-30a3-44fc-8a96-b93949156448"
-Parent: "5c07188f-9030-4265-bfef-fbb75f2d28b7"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View
+ID: "f8b7403d-6b6e-4d71-bca2-1b7e72ede334"
+Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column/Two Column with Text/Second Column
 SharedFields:
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {8CA06D6A-B353-44E8-BC31-B528C7306971}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{567393C6-12C8-48DD-B0D5-B1F4C63FA3A7}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -19,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T100306Z
+      Value: 20231028T102001Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -30,11 +25,11 @@ Languages:
         sitecore\hrupapara
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fdb6e3b0-2f9f-486f-a760-0c507cf9c6aa"
+      Value: "3a3a94d4-89b7-4fc5-8696-bd7770871243"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\hrupapara
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112914Z
+      Value: 20231028T102358Z

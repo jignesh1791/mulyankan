@@ -1,17 +1,18 @@
 ﻿---
-ID: "5593ab38-30a3-44fc-8a96-b93949156448"
-Parent: "5c07188f-9030-4265-bfef-fbb75f2d28b7"
+ID: "0f4834bc-1fc8-47d6-ac7e-bfeb21110304"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Comments
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: wordprocessing/32x32/comment.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {8CA06D6A-B353-44E8-BC31-B528C7306971}
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{567393C6-12C8-48DD-B0D5-B1F4C63FA3A7}"
+  Value: "{9C5ED546-C2F8-4746-B197-9006378403A2}"
 Languages:
 - Language: en
   Versions:
@@ -19,22 +20,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T100306Z
+      Value: 20231028T111221Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\hrupapara
+        sitecore\akshay
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hrupapara
+        sitecore\akshay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fdb6e3b0-2f9f-486f-a760-0c507cf9c6aa"
+      Value: "620d87cc-8c95-4df4-b430-5c96cf5143ab"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hrupapara
+        sitecore\akshay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112914Z
+      Value: 20231028T111629Z
