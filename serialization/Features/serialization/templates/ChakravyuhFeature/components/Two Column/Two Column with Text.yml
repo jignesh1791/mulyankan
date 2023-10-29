@@ -1,8 +1,8 @@
 ﻿---
 ID: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
-Parent: "c50ae997-a6ad-4687-b029-beef1cb5632e"
+Parent: "3ec2bde6-88fe-4ee7-94c2-1e9baa8921d4"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column/Two Column with Text
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

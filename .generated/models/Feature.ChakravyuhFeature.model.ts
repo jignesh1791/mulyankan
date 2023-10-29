@@ -33,6 +33,44 @@ export namespace ChakravyuhFeature.Fields {
  }; 
 }
 
+export namespace ChakravyuhComponents.Fields {
+    export type Carousel = 
+            ChakravyuhFoundation.Fields.Title & 
+            ChakravyuhFoundation.Fields.Image & { 
+        fields?: { 
+            /**
+            * Represents the SliderCards field (d21134ac-75e9-4d4b-a04a-e6d8b6314d0b).
+            */
+            SliderCards: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace ChakravyuhComponents.Cards.Fields {
+    export type CarouselCard = 
+            ChakravyuhFoundation.Fields.Title & 
+            ChakravyuhFoundation.Fields.Image & { 
+        fields?: { 
+            /**
+            * Represents the CTA field (10cedf5e-d8a1-4859-b065-e15623f94b73).
+            */
+            CTA: LinkField;
+
+            /**
+            * Represents the Image field (3299f0dc-2453-4430-904e-3864649a05a7).
+            */
+            Image: ImageField;
+
+            /**
+            * Represents the SubText field (ee577bfb-83e1-4bae-b6db-cfd0da64d699).
+            */
+            SubText: Field<string>;
+ 
+        }
+ }; 
+}
+
 export namespace ChakravyuhFeature.Fields {
     export type Coach = 
             ChakravyuhFoundation.Fields.Name & 
@@ -47,6 +85,79 @@ export namespace ChakravyuhFeature.Fields {
             * Represents the Type field (4ca7a3e1-bd78-49cc-870c-3f2a47d9efc8).
             */
             Type?: Sitecore.Override.ItemEx;
+ 
+        }
+ }; 
+}
+
+export namespace ChakravyuhFeature.Fields {
+    export type Comments = { 
+        fields?: { 
+            /**
+            * Represents the CommentItemId field (7540322a-6e47-47dc-9c14-3742ac20a62e).
+            */
+            CommentItemId: Field<string>;
+
+            /**
+            * Represents the Description field (ba6a5c1e-8803-4abf-a7f5-2b658fb47aa3).
+            */
+            Description: Field<string>;
+
+            /**
+            * Represents the Name field (8f03c249-4f5e-4324-8196-839029aa3f53).
+            */
+            Name: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace ChakravyuhComponents.Footer.Fields {
+    export type FooterComponent = { 
+        fields?: { 
+            /**
+            * Represents the CopyrightText field (7dd25a2c-4082-46ae-959a-746aaeb45985).
+            */
+            CopyrightText: Field<string>;
+
+            /**
+            * Represents the FooterLogo field (476c2f5f-3b81-4b32-80cf-8ed46034b556).
+            */
+            FooterLogo: ImageField;
+
+            /**
+            * Represents the FooterNavigationLink field (67a74b64-73f6-4912-b944-37a8eb6ff647).
+            */
+            FooterNavigationLink: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace ChakravyuhComponents.Header.Fields {
+    export type HeaderComponent = { 
+        fields?: { 
+            /**
+            * Represents the HeaderNavigationLinks field (cba2c147-813c-4b91-a237-a747cbe956df).
+            */
+            HeaderNavigationLinks: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the LogoImage field (d8371cda-1991-4dec-b182-c4d82a6c5fe5).
+            */
+            LogoImage: ImageField;
+ 
+        }
+ }; 
+}
+
+export namespace ChakravyuhFeature.Fields {
+    export type NavigationLink = { 
+        fields?: { 
+            /**
+            * Represents the LinkField field (7b145c51-64c5-4840-8335-80fded7a85e5).
+            */
+            LinkField: Field<string>;
  
         }
  }; 
@@ -79,6 +190,11 @@ export namespace ChakravyuhFeature.Fields {
             BowlingStyle: Field<string>;
 
             /**
+            * Represents the Captain field (8333a898-5914-4aad-9676-4786764edff5).
+            */
+            Captain: Field<string>;
+
+            /**
             * Represents the Date of Birth field (05e7e6c9-16d6-4e1c-a6c8-30474aa16612).
             */
             Dob: Field<string>;
@@ -99,14 +215,9 @@ export namespace ChakravyuhFeature.Fields {
             Hundreds: Sitecore.Override.ItemEx[];
 
             /**
-            * Represents the IsCaptain field (64fb77a6-6a64-4041-9415-d609ce0a387c).
+            * Represents the HundredsInNumber field (69ad4f8f-765e-4678-a58c-a596793cf94b).
             */
-            IsCaptain: Field<boolean>;
-
-            /**
-            * Represents the IsWicketKeeper field (0476149f-7f34-410e-8d97-d65c784ebb06).
-            */
-            IsWicketKeeper: Field<boolean>;
+            HundredsInNumber: Field<number>;
 
             /**
             * Represents the Team field (ed042aa0-70f0-4e81-a839-10ee176a62c5).
@@ -139,9 +250,19 @@ export namespace ChakravyuhFeature.Fields {
             TotalWickets: Sitecore.Override.ItemEx[];
 
             /**
+            * Represents the TotalWicketsInNumber field (54809b4c-aa04-4ef8-9853-0daf8a8bbae3).
+            */
+            TotalWicketsInNumber: Field<number>;
+
+            /**
             * Represents the Type field (168f2a48-5327-40d6-8808-4f97fcf8ffcf).
             */
             Type?: Sitecore.Override.ItemEx;
+
+            /**
+            * Represents the WicketKeeper field (27d442b2-6b8d-41be-adb2-7b23e9d34451).
+            */
+            WicketKeeper: Field<string>;
  
         }
  }; 
@@ -218,7 +339,14 @@ export namespace ChakravyuhFeature.Fields {
  }; 
 }
 
-export namespace ChakravyuhComponents.Fields {
+export namespace ChakravyuhComponents.TwoColumn.Fields {
+    export type TwoColumnDataFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ChakravyuhComponents.TwoColumn.Fields {
     export type TwoColumnWithText = { 
         fields?: { 
             /**
@@ -241,6 +369,13 @@ export namespace ChakravyuhComponents.Fields {
             */
             titleText: Field<string>;
  
+        }
+ }; 
+}
+
+export namespace ChakravyuhComponents.Fields {
+    export type Widgets = { 
+        fields?: {  
         }
  }; 
 }
