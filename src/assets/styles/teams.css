@@ -1,0 +1,51 @@
+.teams-section-container {
+  @apply pl-5 pr-5 pt-5 pb-5;
+  .teams-section-container-heading {
+    @apply mt-3 mb-3;
+  }
+  .teams-section {
+    @apply flex;
+    .filter-section {
+      .filter-option {
+        .filter-option-heading {
+          @apply text-lg font-bold;
+        }
+        .filter-option-list {
+          @apply pt-3 pb-3;
+          .filter-option-label {
+            @apply block;
+            .filter-option-checkbox {
+              @apply mr-1;
+            }
+          }
+        }
+      }
+    }
+    .result-section {
+      .result-section-heading {
+        @apply text-lg font-bold;
+      }
+      .result-section-list {
+        @apply mt-4 mb-4;
+        .result-section-item {
+          @apply pl-3 pr-3 pt-3 pb-3 m-auto text-center;
+          .player-name {
+            @apply text-2xl font-bold;
+          }
+        }
+      }
+      .load-more-section {
+        @apply text-right;
+        .load-more-cta {
+          @apply bg-orange-300 pl-5 pr-5 pt-3 pb-3 rounded-lg;
+        }
+      }
+      .arrows {
+        @apply text-right;
+        .arrow-index {
+          @apply pl-2 pr-2;
+        }
+      }
+    }
+  }
+}

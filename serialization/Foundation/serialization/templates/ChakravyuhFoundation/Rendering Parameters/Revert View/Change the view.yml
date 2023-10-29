@@ -3,6 +3,10 @@ ID: "17d547a5-8f48-455b-82e2-32a68bafde3f"
 Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Refresh.png
 Languages:
 - Language: en
   Versions:
@@ -21,11 +25,11 @@ Languages:
         sitecore\hrupapara
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c16987f-e106-4c7e-bf53-484af1569971"
+      Value: "d35c31c4-b244-4828-ab79-c44f09520495"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\hrupapara
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T101748Z
+      Value: 20231028T112959Z

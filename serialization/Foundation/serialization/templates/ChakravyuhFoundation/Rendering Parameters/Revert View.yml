@@ -6,7 +6,9 @@ Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/R
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {8CA06D6A-B353-44E8-BC31-B528C7306971}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{567393C6-12C8-48DD-B0D5-B1F4C63FA3A7}"
@@ -28,11 +30,11 @@ Languages:
         sitecore\hrupapara
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4ecd2c7-7dd0-45cb-a74a-c70c257a6882"
+      Value: "fdb6e3b0-2f9f-486f-a760-0c507cf9c6aa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\hrupapara
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T101205Z
+      Value: 20231028T112914Z

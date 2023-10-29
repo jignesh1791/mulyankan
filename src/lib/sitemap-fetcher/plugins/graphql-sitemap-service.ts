@@ -5,8 +5,9 @@ import { GetStaticPathsContext } from 'next';
 
 class GraphqlSitemapServicePlugin implements SitemapFetcherPlugin {
   _graphqlSitemapService: GraphQLSitemapService;
-
+  
   constructor() {
+    console.log(JSON.stringify(config));
     this._graphqlSitemapService = new GraphQLSitemapService({
       endpoint: config.graphQLEndpoint,
       apiKey: config.sitecoreApiKey,
