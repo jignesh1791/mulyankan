@@ -3,7 +3,7 @@
 // Global
 import { ChakravyuhFeature } from '.generated/models/Feature.ChakravyuhFeature.model';
 import { CommentsCard, CommentsResultSearchtData } from '@/models/graphql/CommentsResult';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { RichText, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 // Components
 import { Component } from 'src/components/helpers/Component';
@@ -12,8 +12,13 @@ export type PlayersProps = ChakravyuhFeature.Fields.Players;
 export type CommentsProps = ChakravyuhFeature.Fields.Comments;
 const Comments = (props: CommentsProps) => {
   const [viewComments, setViewComments] = useState<CommentsCard[]>();
+  const [showSuccess, setShowSuccess] = useState<any>(false);
   const { sitecoreContext } = useSitecoreContext();
   const playerImage = sitecoreContext?.route as PlayersProps;
+  const playerName = sitecoreContext?.route as PlayersProps;
+  const CommentDescription = useRef<any>();
+  const playerFullName =
+    playerName?.fields?.Firstname?.value + ' ' + playerName?.fields?.Lastname?.value;
 
   const commentitemid = sitecoreContext?.route?.itemId?.replace(/-/gi, '') as string;
   useEffect(() => {
@@ -28,16 +33,45 @@ const Comments = (props: CommentsProps) => {
         if (data) {
           const resultData = data as CommentsResultSearchtData;
           console.log('resultData:', resultData);
-          if (resultData.search.total > 0) {
-            setViewComments(resultData.search.results);
+          if (resultData?.search?.total > 0) {
+            setViewComments(resultData?.search?.results);
           }
         }
       });
   }, []);
 
   // Submit Comment Function
-  const SubmitComment = (commentitemid: string) => {
-    console.log('submit', commentitemid);
+  const SubmitComment = (event: any, commentitemid: string, playerFullName: string) => {
+    event.preventDefault();
+    const postdata = {
+      itemname: `${commentitemid}-comment`,
+      name: playerFullName ?? '',
+      description: CommentDescription?.current?.value,
+      commentitemid: commentitemid,
+    };
+
+    fetch(`/api/createitem`, {
+      method: 'POST',
+      body: JSON.stringify(postdata),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((response) => {
+        setShowSuccess(true);
+        CommentDescription.current.value = '';
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+        if (data) {
+          const resultData = data as CommentsResultSearchtData;
+          console.log('resultData:', resultData);
+          if (resultData?.search?.total > 0) {
+            setViewComments(resultData?.search?.results);
+          }
+        }
+      });
   };
 
   return (
@@ -58,12 +92,23 @@ const Comments = (props: CommentsProps) => {
                   <h1 className="font-semibold">Post Comment</h1>
                 </div>
               </div>
+              <div
+                className={`justify-between text-green-200 shadow-inner rounded p-3 m-3 bg-green-600 ${
+                  showSuccess ? 'flex' : 'hidden'
+                }`}
+              >
+                <p className="self-center">
+                  <strong>Success </strong>Comment has been posted successfully.
+                </p>
+                <strong className="text-xl align-center cursor-pointer alert-del">&times;</strong>
+              </div>
               <form className="mb-6">
                 <div className="mt-3 p-3 w-full">
                   <textarea
                     rows={3}
                     className="border p-2 rounded w-full"
                     placeholder="Write something..."
+                    ref={CommentDescription}
                   ></textarea>
                 </div>
 
@@ -71,7 +116,7 @@ const Comments = (props: CommentsProps) => {
                   <div>
                     <button
                       className="px-4 py-1 bg-gray-800 text-white rounded font-light hover:bg-gray-700"
-                      onClick={() => SubmitComment(commentitemid)}
+                      onClick={(e) => SubmitComment(e, commentitemid, playerFullName)}
                     >
                       Submit
                     </button>
