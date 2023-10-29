@@ -59,7 +59,7 @@ if (fs.existsSync(componentManifestDefinitionsPath)) {
     componentManifestDefinitionsPath,
     generateComponentManifest(componentName),
     filename
-  );
+  ) as any;
 } else {
   console.log(
     chalk.red(`Not scaffolding manifest because ${componentManifestDefinitionsPath}

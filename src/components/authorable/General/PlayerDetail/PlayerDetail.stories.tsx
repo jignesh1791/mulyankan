@@ -20,5 +20,5 @@ type Story = StoryObj<typeof PlayerDetail>;
 export const Default: Story = {
   render: (args) => {
     return <PlayerDetail {...(expandObj({ ...args }) as PlayerDetailProps)} />;
-  }
+  },
 };

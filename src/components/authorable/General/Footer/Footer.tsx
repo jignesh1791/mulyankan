@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 import { ChakravyuhComponents } from '.generated/models/Feature.ChakravyuhFeature.model';
 import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
 
@@ -18,15 +19,15 @@ const Footer = ({ fields }: FooterProps): JSX.Element => {
           <div className=" text-2xl uppercase">
             <h1 className="text-white font-bold">
               <a href="/">
-              Chakra<span className="font-black text-3xl">vyuh</span>
+                Chakra<span className="font-black text-3xl">vyuh</span>
               </a>
             </h1>
           </div>
           <div className="w-full md:block md:w-auto text-white" id="bs-example-navbar-collapse-1">
             <h3 className="uppercase font-bold">Navigations</h3>
             <ul className="gap-x-4 p-3">
-              {fields.FooterNavigationLink.map((currentitem: any) => (
-                <li id={currentitem.id}>
+              {fields.FooterNavigationLink.map((currentitem: any, index) => (
+                <li key={index} id={currentitem.id}>
                   <Link field={currentitem.fields.LinkField} />
                 </li>
               ))}
