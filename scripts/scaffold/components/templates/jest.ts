@@ -27,7 +27,7 @@ export const jestTemplate: Template<JSSTemplateArgs> = ({
   if (hasNextDynamic) {
     imports.global.push(`import dynamic from 'next/dynamic';`);
     imports.components.push(
-      `import IconNewTab from 'src/helpers/SvgIcon/icons/icon--new-tab';`
+      `import IconNewTab from 'src/components/helpers/SvgIcon/icons/icon--new-tab';`
     );
   }
 
