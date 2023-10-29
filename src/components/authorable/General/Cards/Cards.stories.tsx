@@ -5,8 +5,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { expandObj, flattenObj } from 'lib/object-parser';
 
 // Local
-import Cards, { CardsProps } from './Cards';
-import defaultData from './Cards.mock-data';
+import Cards, { cardProps } from './Cards';
 
 const meta: Meta<typeof Cards> = {
   title: 'Authorable/General/Cards',
@@ -20,9 +19,6 @@ type Story = StoryObj<typeof Cards>;
 
 export const Default: Story = {
   render: (args) => {
-    return <Cards {...(expandObj({ ...args }) as CardsProps)} />;
-  },
-  args: {
-    ...flattenObj(defaultData),
-  },
+    return <Cards {...(expandObj({ ...args }) as cardProps)} />;
+  }
 };
