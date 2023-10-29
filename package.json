@@ -67,6 +67,7 @@
     "@graphql-codegen/typescript-resolvers": "^1.17.10",
     "@graphql-typed-document-node/core": "^3.1.0",
     "@sitecore-jss/sitecore-jss-cli": "^21.1.0",
+    "@sitecore-feaas/clientside": "^0.3.17",
     "@sitecore-jss/sitecore-jss-dev-tools": "^21.1.0",
     "@storybook/addon-docs": "^7.2.1",
     "@storybook/addon-essentials": "^7.2.1",
