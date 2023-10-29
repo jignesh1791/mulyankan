@@ -1,12 +1,8 @@
 ﻿---
-ID: "17d547a5-8f48-455b-82e2-32a68bafde3f"
-Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
+ID: "65fa6cb6-05f8-4f90-9fe2-29a6d3f138d5"
+Parent: "9fe6e0bf-b5e0-4324-bf8e-bad1d473522a"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Apps/32x32/Refresh.png
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Footer/Footer Component/Footer Details
 Languages:
 - Language: en
   Versions:
@@ -14,22 +10,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T100421Z
+      Value: 20231028T125651Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d35c31c4-b244-4828-ab79-c44f09520495"
+      Value: "e2edfd8b-740d-4141-aafb-ecb927a2825e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112959Z
+      Value: 20231028T131703Z

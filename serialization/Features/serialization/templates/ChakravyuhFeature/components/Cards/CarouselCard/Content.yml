@@ -1,8 +1,8 @@
 ﻿---
-ID: "821e842a-8911-4313-877d-f1777668919b"
-Parent: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
+ID: "d4ddee0f-3576-4d34-8b41-cea2495aa00c"
+Parent: "b172d79b-4f0e-4be7-b48b-b79d08b150d8"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column with Text/First Column
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Cards/CarouselCard/Content
 Languages:
 - Language: en
   Versions:
@@ -10,22 +10,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T102001Z
+      Value: 20231028T135406Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\hrupapara
+        sitecore\Admin
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hrupapara
+        sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7bb268fc-13a2-4cd0-84d2-f7fe2512009c"
+      Value: "56b3d9f3-ec7b-4183-9b40-efb965ccf15e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hrupapara
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T102358Z
+      Value: 20231028T135707Z
