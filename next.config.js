@@ -57,6 +57,21 @@ const nextConfig = {
   },
 };
 
+module.exports = {
+  images: {
+    domains: ['scmulyankancm.dev.local'],
+    formats: ['image/webp'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+    dangerouslyAllowSVG: true,
+    deviceSizes: [480, 768, 960, 1366, 1920, 2048, 3840],
+  },
+};
+
 module.exports = () => {
   // Run the base config through any configured plugins
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);
