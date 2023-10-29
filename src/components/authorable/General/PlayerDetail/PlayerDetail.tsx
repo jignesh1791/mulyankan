@@ -1,10 +1,5 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ChakravyuhFeature } from '.generated/models/Feature.ChakravyuhFeature.model';
-import { Link, Text, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
-
-// Local
-import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
-import Image from 'next/image';
 import { useState } from 'react';
 
 export type PlayerDetailProps = ChakravyuhFeature.Fields.Players;
@@ -61,6 +56,7 @@ let objectDate = new Date(fields.Dob?.value);
         <h2 className='font-bold mb-3'>Batting and Fielding</h2>
           <hr></hr>
           <table className='w-full border-black border-solid border-1'>
+            <thead>
             <tr className='text-left'>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"></th>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Matches</th>
@@ -72,6 +68,8 @@ let objectDate = new Date(fields.Dob?.value);
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Wickets</th>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Average</th>
             </tr>
+            </thead>
+            <tbody>
             <tr className='text-left'>
               <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">ODI</td>
               <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">{fields.TotalMatchesPlayed.value}</td>
@@ -83,6 +81,7 @@ let objectDate = new Date(fields.Dob?.value);
               <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">{fields.TotalWicketsInNumber.value}</td>
               <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">{fields.Average.value}</td>
             </tr>
+            </tbody>
           </table>
           <hr></hr>
         </div>
