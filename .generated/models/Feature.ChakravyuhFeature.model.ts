@@ -16,10 +16,32 @@ import { ComponentRendering, RouteData, Field, ImageField, FileField, LinkField 
 import { DefaultComponentProps } from '@/lib/component-props';
 
 
+export namespace ChakravyuhComponents.Fields {
+    export type Accordion = { 
+        fields?: { 
+            /**
+            * Represents the AccordianList field (40d16058-bfbd-479d-8689-00d456f572fa).
+            */
+            AccordianList: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the Title field (2c9f3e80-3d06-46ca-8fd3-6614be6d4cde).
+            */
+            Title: Field<string>;
+ 
+        }
+ }; 
+}
+
 export namespace ChakravyuhFeature.Fields {
     export type Banner = 
             ChakravyuhFoundation.Fields.Image & { 
         fields?: { 
+            /**
+            * Represents the CTA field (3757710f-b76b-430f-90a4-33d5b54ef2e4).
+            */
+            CTA: LinkField;
+
             /**
             * Represents the Description field (d17a1ae8-fac7-4532-b4ff-a342654ee913).
             */
@@ -335,6 +357,23 @@ export namespace ChakravyuhFeature.Fields {
  }; 
 }
 
+export namespace ChakravyuhFeature.Fields {
+    export type TextWithDescription = { 
+        fields?: { 
+            /**
+            * Represents the Description field (aefaf0a0-a202-4b64-a142-1bcbbc2523da).
+            */
+            Description: Field<string>;
+
+            /**
+            * Represents the Text field (1debb3f8-39cd-4b7b-988b-18b9ebb6cb47).
+            */
+            Text: Field<string>;
+ 
+        }
+ }; 
+}
+
 export namespace ChakravyuhComponents.TwoColumn.Fields {
     export type TwoColumnDataFolder = { 
         fields?: {  
@@ -343,7 +382,8 @@ export namespace ChakravyuhComponents.TwoColumn.Fields {
 }
 
 export namespace ChakravyuhComponents.TwoColumn.Fields {
-    export type TwoColumnWithText = { 
+    export type TwoColumnWithText = 
+            ChakravyuhFoundation.Fields.Title & { 
         fields?: { 
             /**
             * Represents the CTA field (63321c62-50e6-4ce4-9e48-bbd918ebb23c).

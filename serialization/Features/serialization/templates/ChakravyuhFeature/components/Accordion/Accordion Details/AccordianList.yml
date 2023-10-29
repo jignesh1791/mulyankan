@@ -1,15 +1,21 @@
 ﻿---
-ID: "b99b5aa6-e344-4e4d-a6cf-014c535875ec"
-Parent: "84f2b3d4-cfb3-4136-97f6-eb46830c4dce"
+ID: "40d16058-bfbd-479d-8689-00d456f572fa"
+Parent: "74a48a79-c369-4530-a590-d4be4ec49bcd"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/ChakravyuhFeature/Banner/Data/Title
+Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Accordion/Accordion Details/AccordianList
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{E43E9FE1-1A8C-4418-B4C5-3E5C4493B497}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: Multilist
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -17,22 +23,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231027T143940Z
+      Value: 20231029T084309Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Admin
+        sitecore\jay
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Admin
+        sitecore\jay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e98a942d-03bd-4b23-94e8-addd86402013"
+      Value: "db5fc53d-e50a-4576-8f83-5a5175c25362"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231029T083100Z
+      Value: 20231029T084852Z
