@@ -10,10 +10,10 @@ export default function NewsListing(props: RootObjectProps) {
   console.log('newslisting', props);
   const propData = props?.fields?.data?.datasource;
   return (
-    <ContainerWrapper data={props} className="my-8 md:my-24">
+    <ContainerWrapper data={propData} className="my-8 md:my-24">
       <div className="flex flex-row justify-start border-4 rounded-md mx-12 md:mx-40">
         <div className="flex flex-col items-start justify-center border-b-2 px-12 gap-6">
-          <div>
+          <div className="mt-6">
             <h2 className="text-2xl font-extrabold text-gray-700">{propData?.title?.value}</h2>
           </div>
           {/* news start */}
@@ -25,10 +25,8 @@ export default function NewsListing(props: RootObjectProps) {
               className="flex flex-row gap-6 w-full my-2"
               key={idx}
             >
-              <div className="">
-                {/* <Image field={_dT?.fields?.newsImage?.value} /> */}
+              <div className="rounded">
                 <Image
-                  className="rounded"
                   alt={_dT?.fields?.newsImage?.value?.alt}
                   src={_dT?.fields?.newsImage?.value?.src}
                   width={_dT?.fields?.newsImage?.value?.width}
