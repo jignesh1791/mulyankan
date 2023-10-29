@@ -1,4 +1,3 @@
-// @typescript-eslint/no-explicit-any
 import React, { useState } from 'react';
 import Image from 'next/image';
 import RichTextA11yWrapper from '../../../helpers/RichTextA11yWrapper/RichTextA11yWrapper';
@@ -9,18 +8,17 @@ import { RootObjectProps } from './TwoColumn.interface';
 
 //interface
 
-export default function TwoColumnWithText(props: RootObjectProps) {
+export default function TwoColumnWithText(props: any) {
   const data = props?.fields?.data?.datasource?.fields;
   const paramData = props?.params;
-  const [isRevert] = useState<boolean>(paramData?.revertColumns === '1');
+  const [isRevert] = useState<Boolean>(paramData?.revertColumns === '1');
   const richTextValue = data[2]?.jsonValue?.value;
   const headingValue = data[4]?.jsonValue?.value;
   console.log('2 columns', props);
   return (
     <ContainerWrapper data={data} className="my-8 md:my-24">
       <div className="flex justify-center items-center my-6 md:my-12">
-        {/*  */}
-        <h2 className="text-3xl text-center md:text-5xl text-[#100011]">{headingValue as any}</h2>
+        <h2 className="text-3xl text-center md:text-5xl text-[#100011]">{headingValue}</h2>
       </div>
       <div
         className={`flex flex-col justify-center items-center gap-6 md:gap-12 ${
@@ -31,7 +29,7 @@ export default function TwoColumnWithText(props: RootObjectProps) {
           <Image
             height="400"
             width="300"
-            src={Placeholder}
+            src={data[3]?.jsonValue?.value?.src}
             alt={data[3]?.jsonValue?.value?.alt as string}
           />
         </div>
@@ -42,7 +40,7 @@ export default function TwoColumnWithText(props: RootObjectProps) {
         >
           <div className="font-semibold text-xl md:text-4xl text-center">
             <h3 className={`text-center ${isRevert ? `md:text-right` : `md:text-left`}`}>
-              {data[1]?.jsonValue?.value as any}
+              {data[1]?.jsonValue?.value}
             </h3>
           </div>
           <div className="mx-4 md:mx-0">
@@ -51,7 +49,7 @@ export default function TwoColumnWithText(props: RootObjectProps) {
                 isRevert ? `md:text-right` : `md:text-left`
               }`}
             >
-              <RichTextA11yWrapper editable field={richTextValue as any} />
+              <RichTextA11yWrapper editable field={{ value: richTextValue }} />
             </div>
           </div>
           <div>
