@@ -140,9 +140,9 @@ const Comments = (props: CommentsProps) => {
                   return (
                     <article className="p-6 text-base bg-white rounded-lg dark:bg-gray-900">
                       <footer className="flex justify-between items-center mb-2">
-                        <div className="flex items-center w-6">
+                        <div className="flex items-center">
                           <p className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
-                            <img src={playerImage.fields?.PageImage?.value?.src} alt="" />
+                            <img className='w-[20px] h-[20px]' src={playerImage.fields?.PageImage?.value?.src} alt="" />
                             {item?.playerName?.value}
                           </p>
                         </div>

@@ -1,22 +1,13 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation.yml
-ID: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
-Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation
-Signature: tVicbk3fdIsALtwxq20r3hyl0Be5T4eWkjcIAA+P0T4=
-Modified: 638340958927472771
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Values.yml
-ID: "be37bf8f-1e73-4536-b244-9567886e3003"
-Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Values
-Signature: J8h5eyWkMzor4L0lRZYiEPUjxcOA3vt4+sscSZrZ7GI=
-Modified: 638340958927765242
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\__Standard Values.yml
+ID: "ca43922a-9f81-484a-9ccc-a9201596dd67"
+Parent: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
+Template: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/__Standard Values
+Signature: myzp0N8ODHpQyqsk8HiW/TqGcXRnPBomcawsqBR/WqA=
+Modified: 638340958928607681
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters.yml
@@ -28,13 +19,31 @@ Signature: wCm5t+DwRdozBkgDLMqdoXzDCdOg8QtPZxPxSY2lhRY=
 Modified: 638340958927522817
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Style Class\Heading Size.yml
-ID: "37e4c02f-6cf0-467f-9827-9c8bc185ebf9"
-Parent: "24b5dcc5-297b-4942-b250-3c4461d46a29"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Style Class/Heading Size
-Signature: h1vxthPk/Hi6SSeZZ4WduiyATyzs6o6Y3eMzlgFw2yg=
-Modified: 638340958927719725
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsSubject.yml
+ID: "af4ac833-e0ff-4102-950d-e32a4ad0b70e"
+Parent: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section/newsSubject
+Signature: dScxXl0zlF/gyPUwLVabr1tbEBiEhwJ++JF6T70HQqQ=
+Modified: 638340958928416351
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\News Details Page\addNewsItems.yml
+ID: "f9d86793-062c-4951-9b10-663c83d05fc6"
+Parent: "7f45f007-2088-41f8-b602-232175d61d33"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/News Details Page/addNewsItems
+Signature: afrDRClaKHrMhYsvlZl2m0LAHDt4mFWDWDUsaNd6IBw=
+Modified: 638340958928567188
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\Change the view\revertColumns.yml
+ID: "bfa8075e-1946-44ca-824a-a39ca6f7793c"
+Parent: "17d547a5-8f48-455b-82e2-32a68bafde3f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view/revertColumns
+Signature: V2RbE6eOd6SZKmGeaIrl1MrFw8MTFcSTyCNLeX2oy54=
+Modified: 638341687044802993
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Style Class.yml
@@ -46,13 +55,13 @@ Signature: sYDZwsolNMqUvSdwHLM/bbfoi7Px+FqBylaoCR+wuiQ=
 Modified: 638340958927699814
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details.yml
-ID: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
-Parent: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details
-Signature: yVCrDX79twr6AV9zOBTwIaIzuT5LtztwmYfAS17FCmo=
-Modified: 638340958927831494
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Values.yml
+ID: "be37bf8f-1e73-4536-b244-9567886e3003"
+Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Values
+Signature: J8h5eyWkMzor4L0lRZYiEPUjxcOA3vt4+sscSZrZ7GI=
+Modified: 638340958927765242
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum.yml
@@ -64,15 +73,6 @@ Signature: vCVcqszP43v3ILfac9dgdFDx5DtfNr6F/EAFqTvJSzE=
 Modified: 638340958927795568
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\__Standard Values.yml
-ID: "2ecab269-70af-4cad-9ea3-3f3210bf2ea8"
-Parent: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
-Template: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/__Standard Values
-Signature: 0yxNtKGVXukU2FBQPhRbGcPq+wMfxkooKrsfM0xrR+o=
-Modified: 638340958927892843
----
-File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Image.yml
 ID: "69757627-09be-420e-8420-b3ffc19031eb"
 Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
@@ -80,15 +80,6 @@ Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Image
 Signature: WPrQNfqV77/8BoAsvCP/cqOWq3MZRKOYsqafn1VlXn0=
 Modified: 638340958927912725
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Image\Media.yml
-ID: "ec8fab99-c8b8-4f66-89ff-124cb56c8aaa"
-Parent: "69757627-09be-420e-8420-b3ffc19031eb"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Image/Media
-Signature: +L5RlITs06RJJ455EAUPLm1FaZ8MNNMEFEVjT4kGdEs=
-Modified: 638340958927959214
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name.yml
@@ -100,15 +91,6 @@ Signature: psHhHhM5bGA8IuptUnloCd+xS/nCYc/44ZaWCwJBM7A=
 Modified: 638340958928028649
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details.yml
-ID: "ef45073b-6ca1-4785-926c-7f865f5f6144"
-Parent: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details
-Signature: P9tP/m0Ae9R0xFJ4wYmfpr9PlwdwHkLIL3FgbmY7g5I=
-Modified: 638340958928058831
----
-File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title.yml
 ID: "f6333d0f-e8b8-45ee-b400-f01ffaba7c01"
 Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
@@ -116,15 +98,6 @@ Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title
 Signature: 51Khw7hTMWW9ecbi8vTG0eb18nga3/4YXm94pVNcFdA=
 Modified: 638340958928195849
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\__Standard Values.yml
-ID: "ffd7a71e-6236-4d33-9994-35761a486992"
-Parent: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
-Template: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/__Standard Values
-Signature: KqCxf0cX4hDP2rSKRdMh4KCLaDo37Vn21BoBrQzrQ9w=
-Modified: 638340958928165433
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail.yml
@@ -136,15 +109,6 @@ Signature: iKLug2Aouc1X+fE9e3cq9LtzUCY6PnR/ypfwfJ8POgk=
 Modified: 638340958928293971
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content.yml
-ID: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
-Parent: "f6333d0f-e8b8-45ee-b400-f01ffaba7c01"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content
-Signature: UA76sRMoWqMxqL+RfzGUZYtEisZzjPrNh/B0j7ts+n4=
-Modified: 638340958928216071
----
-File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List.yml
 ID: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
 Parent: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
@@ -152,15 +116,6 @@ Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List
 Signature: KNKcNanf3FW7IhJp7V3mJm63w9xjdJmcv40+t7hAEEQ=
 Modified: 638340958928501861
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section.yml
-ID: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
-Parent: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section
-Signature: yu1e08AaBBJV8P81+CsHCN+q87q16N+94FnAdDGCBNE=
-Modified: 638340958928339510
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View.yml
@@ -172,139 +127,31 @@ Signature: IuHsUcOHBzR9XkSQSJg/gDF950r6tnLoq/B0cUppF0I=
 Modified: 638341687044783590
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\__Standard Values.yml
-ID: "367223f0-2bfe-400c-a872-cea06db433ac"
-Parent: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
-Template: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/__Standard Values
-Signature: 8f9X2e46yTj2OKFCsu0QmCd4zKhcecDQTM673EGFIn8=
-Modified: 638340958928471871
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details\Name.yml
-ID: "eeb6cdb4-cec6-497e-af83-b0721a971f58"
-Parent: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details/Name
-Signature: ALxrzcM6VubrPkaKF3HZEHt1hu0dh4MQGSIrM2tA87M=
-Modified: 638340958927861316
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\News Details Page.yml
-ID: "7f45f007-2088-41f8-b602-232175d61d33"
-Parent: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Style Class\Heading Size.yml
+ID: "37e4c02f-6cf0-467f-9827-9c8bc185ebf9"
+Parent: "24b5dcc5-297b-4942-b250-3c4461d46a29"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/News Details Page
-Signature: NlPOwxiTb96QgJ9ina8z/iaHKt1Zy9TI8IdpPyDaB9E=
-Modified: 638340958928542150
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Style Class/Heading Size
+Signature: h1vxthPk/Hi6SSeZZ4WduiyATyzs6o6Y3eMzlgFw2yg=
+Modified: 638340958927719725
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details\Value.yml
-ID: "afadffcd-1279-46fa-8b99-0208083636ff"
-Parent: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details/Value
-Signature: RJtD7nJ4/3zAqBo3GMRi/5DzTNHHeyo1EpEm5NNEzVc=
-Modified: 638340958927872826
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\__Standard Values.yml
-ID: "ca43922a-9f81-484a-9ccc-a9201596dd67"
-Parent: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
-Template: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/__Standard Values
-Signature: myzp0N8ODHpQyqsk8HiW/TqGcXRnPBomcawsqBR/WqA=
-Modified: 638340958928607681
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Image\Media\PageImage.yml
-ID: "04a082db-8e0d-44c0-ad26-0fbab90a124c"
-Parent: "ec8fab99-c8b8-4f66-89ff-124cb56c8aaa"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Image/Media/PageImage
-Signature: woB5Iol8wCFnuHKDvOKt7mzLAqGhJ8+cBdAQ0X+TSwU=
-Modified: 638340958927999092
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\Change the view.yml
-ID: "17d547a5-8f48-455b-82e2-32a68bafde3f"
-Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details.yml
+ID: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
+Parent: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view
-Signature: SIfMKKXA9M3YMhCdRXK73cmO+/3brSrqBqPdRku4eDk=
-Modified: 638341687044792859
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details
+Signature: yVCrDX79twr6AV9zOBTwIaIzuT5LtztwmYfAS17FCmo=
+Modified: 638340958927831494
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details\Firstname.yml
-ID: "89417d37-58a6-4ea9-a4e5-ea085910f828"
-Parent: "ef45073b-6ca1-4785-926c-7f865f5f6144"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details/Firstname
-Signature: 7CfkL7Ne7KTVexPeC93mNDptwvjiiD6ZVc/WPR8eHw4=
-Modified: 638340958928090127
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\__Standard Values.yml
-ID: "567393c6-12c8-48dd-b0d5-b1f4c63fa3a7"
-Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
-Template: "5593ab38-30a3-44fc-8a96-b93949156448"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/__Standard Values
-Signature: sg8b1on0QMFJTEm3w7fWCLG8KloeenJBNmEevO0v3Tc=
-Modified: 638340958927663591
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details\Lastname.yml
-ID: "bc479562-581b-451c-af74-2986dfd073af"
-Parent: "ef45073b-6ca1-4785-926c-7f865f5f6144"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details/Lastname
-Signature: SwXqlj65+tfpk3XVNDAFFhCGdTu4z3IgzPFFdlNsDtc=
-Modified: 638340958928140325
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Style Class\Heading Size\Size.yml
-ID: "458cb3b1-e720-4b82-9c3a-ffbc2f824635"
-Parent: "37e4c02f-6cf0-467f-9827-9c8bc185ebf9"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Style Class/Heading Size/Size
-Signature: I02e/0PS9inbBGjcAHlg896MMC/Y0j+R79MIskg4Acs=
-Modified: 638340958927739679
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content\PageTitle.yml
-ID: "8ea528e0-c672-4b58-8cf6-fd5ac3e160e3"
-Parent: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content/PageTitle
-Signature: eelvYKQv48TEoeQd8nlDiGlJ2rlBBj7kVB+VmbDgMnY=
-Modified: 638340958928246284
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content\PageTitleSize.yml
-ID: "5def12cf-6eda-46a6-bc0a-bcb48b6b69e5"
-Parent: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content/PageTitleSize
-Signature: bEiYAynYfaEjzWqVt0vrOqisZ1ftSDcjxdKTaq+Q7ek=
-Modified: 638340958928272107
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsReporter.yml
-ID: "1f39ae02-22c1-4381-abcd-1a2dcc121342"
-Parent: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section/newsReporter
-Signature: RBRgHpvv+7/4MdkOiiCanu6+iJT5fnheKRUXFKrHHLQ=
-Modified: 638340958928385167
----
-File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsSubject.yml
-ID: "af4ac833-e0ff-4102-950d-e32a4ad0b70e"
-Parent: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section/newsSubject
-Signature: dScxXl0zlF/gyPUwLVabr1tbEBiEhwJ++JF6T70HQqQ=
-Modified: 638340958928416351
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\__Standard Values.yml
+ID: "2ecab269-70af-4cad-9ea3-3f3210bf2ea8"
+Parent: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
+Template: "214cccf0-9392-4c33-b6e5-a63d20157d6d"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/__Standard Values
+Signature: 0yxNtKGVXukU2FBQPhRbGcPq+wMfxkooKrsfM0xrR+o=
+Modified: 638340958927892843
 ---
 File: |
   C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsTitle.yml
@@ -325,19 +172,181 @@ Signature: bZJTlXsAdAJT12TXm2C7LRie/Aa+bhh2UT9UousyI1k=
 Modified: 638340958928364936
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\News Details Page\addNewsItems.yml
-ID: "f9d86793-062c-4951-9b10-663c83d05fc6"
-Parent: "7f45f007-2088-41f8-b602-232175d61d33"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/News Details Page/addNewsItems
-Signature: afrDRClaKHrMhYsvlZl2m0LAHDt4mFWDWDUsaNd6IBw=
-Modified: 638340958928567188
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Image\Media.yml
+ID: "ec8fab99-c8b8-4f66-89ff-124cb56c8aaa"
+Parent: "69757627-09be-420e-8420-b3ffc19031eb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Image/Media
+Signature: +L5RlITs06RJJ455EAUPLm1FaZ8MNNMEFEVjT4kGdEs=
+Modified: 638340958927959214
 ---
 File: |
-  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\Change the view\revertColumns.yml
-ID: "bfa8075e-1946-44ca-824a-a39ca6f7793c"
-Parent: "17d547a5-8f48-455b-82e2-32a68bafde3f"
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation.yml
+ID: "1a8c1812-5136-4343-9fa4-9e58ef5dd132"
+Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation
+Signature: tVicbk3fdIsALtwxq20r3hyl0Be5T4eWkjcIAA+P0T4=
+Modified: 638340958927472771
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details.yml
+ID: "ef45073b-6ca1-4785-926c-7f865f5f6144"
+Parent: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details
+Signature: P9tP/m0Ae9R0xFJ4wYmfpr9PlwdwHkLIL3FgbmY7g5I=
+Modified: 638340958928058831
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\__Standard Values.yml
+ID: "ffd7a71e-6236-4d33-9994-35761a486992"
+Parent: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
+Template: "8074a2b5-7523-4926-bd4e-60de73ea87c9"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/__Standard Values
+Signature: KqCxf0cX4hDP2rSKRdMh4KCLaDo37Vn21BoBrQzrQ9w=
+Modified: 638340958928165433
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content.yml
+ID: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
+Parent: "f6333d0f-e8b8-45ee-b400-f01ffaba7c01"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content
+Signature: UA76sRMoWqMxqL+RfzGUZYtEisZzjPrNh/B0j7ts+n4=
+Modified: 638340958928216071
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section.yml
+ID: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
+Parent: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section
+Signature: yu1e08AaBBJV8P81+CsHCN+q87q16N+94FnAdDGCBNE=
+Modified: 638340958928339510
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\__Standard Values.yml
+ID: "367223f0-2bfe-400c-a872-cea06db433ac"
+Parent: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
+Template: "9e1947a4-59d8-4dc2-9ca8-e645e88f8e0c"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/__Standard Values
+Signature: 8f9X2e46yTj2OKFCsu0QmCd4zKhcecDQTM673EGFIn8=
+Modified: 638340958928471871
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News List\News Details Page.yml
+ID: "7f45f007-2088-41f8-b602-232175d61d33"
+Parent: "51b0d4d6-905f-48b0-963e-824d3ee3377f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News List/News Details Page
+Signature: NlPOwxiTb96QgJ9ina8z/iaHKt1Zy9TI8IdpPyDaB9E=
+Modified: 638340958928542150
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\Change the view.yml
+ID: "17d547a5-8f48-455b-82e2-32a68bafde3f"
+Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view
+Signature: SIfMKKXA9M3YMhCdRXK73cmO+/3brSrqBqPdRku4eDk=
+Modified: 638341687044792859
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Rendering Parameters\Revert View\__Standard Values.yml
+ID: "567393c6-12c8-48dd-b0d5-b1f4c63fa3a7"
+Parent: "5593ab38-30a3-44fc-8a96-b93949156448"
+Template: "5593ab38-30a3-44fc-8a96-b93949156448"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/__Standard Values
+Signature: sg8b1on0QMFJTEm3w7fWCLG8KloeenJBNmEevO0v3Tc=
+Modified: 638340958927663591
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\Style Class\Heading Size\Size.yml
+ID: "458cb3b1-e720-4b82-9c3a-ffbc2f824635"
+Parent: "37e4c02f-6cf0-467f-9827-9c8bc185ebf9"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Rendering Parameters/Revert View/Change the view/revertColumns
-Signature: V2RbE6eOd6SZKmGeaIrl1MrFw8MTFcSTyCNLeX2oy54=
-Modified: 638341687044802993
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/Style Class/Heading Size/Size
+Signature: I02e/0PS9inbBGjcAHlg896MMC/Y0j+R79MIskg4Acs=
+Modified: 638340958927739679
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details\Name.yml
+ID: "eeb6cdb4-cec6-497e-af83-b0721a971f58"
+Parent: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details/Name
+Signature: ALxrzcM6VubrPkaKF3HZEHt1hu0dh4MQGSIrM2tA87M=
+Modified: 638340958927861316
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Enum\Enum Details\Value.yml
+ID: "afadffcd-1279-46fa-8b99-0208083636ff"
+Parent: "175ba2de-b4e3-40f1-84fe-bcfa4a8269b0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Enum/Enum Details/Value
+Signature: RJtD7nJ4/3zAqBo3GMRi/5DzTNHHeyo1EpEm5NNEzVc=
+Modified: 638340958927872826
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Image\Media\PageImage.yml
+ID: "04a082db-8e0d-44c0-ad26-0fbab90a124c"
+Parent: "ec8fab99-c8b8-4f66-89ff-124cb56c8aaa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Image/Media/PageImage
+Signature: woB5Iol8wCFnuHKDvOKt7mzLAqGhJ8+cBdAQ0X+TSwU=
+Modified: 638340958927999092
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details\Firstname.yml
+ID: "89417d37-58a6-4ea9-a4e5-ea085910f828"
+Parent: "ef45073b-6ca1-4785-926c-7f865f5f6144"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details/Firstname
+Signature: 7CfkL7Ne7KTVexPeC93mNDptwvjiiD6ZVc/WPR8eHw4=
+Modified: 638340958928090127
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Name\Basic Details\Lastname.yml
+ID: "bc479562-581b-451c-af74-2986dfd073af"
+Parent: "ef45073b-6ca1-4785-926c-7f865f5f6144"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Name/Basic Details/Lastname
+Signature: SwXqlj65+tfpk3XVNDAFFhCGdTu4z3IgzPFFdlNsDtc=
+Modified: 638340958928140325
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content\PageTitle.yml
+ID: "8ea528e0-c672-4b58-8cf6-fd5ac3e160e3"
+Parent: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content/PageTitle
+Signature: eelvYKQv48TEoeQd8nlDiGlJ2rlBBj7kVB+VmbDgMnY=
+Modified: 638340958928246284
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\_Title\Content\PageTitleSize.yml
+ID: "5def12cf-6eda-46a6-bc0a-bcb48b6b69e5"
+Parent: "7003c6a3-12f2-4237-8d39-23b2df6049ef"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/_Title/Content/PageTitleSize
+Signature: bEiYAynYfaEjzWqVt0vrOqisZ1ftSDcjxdKTaq+Q7ek=
+Modified: 638340958928272107
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsImage.yml
+ID: "e2324d84-8c7c-46a3-8f50-a5cb27f6b665"
+Parent: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section/newsImage
+Signature: zGAbggVYE8xcduqM9Giicd9ER9kcS2unpEdBHGLQw6o=
+Modified: 638341809068069277
+---
+File: |
+  C:\Users\mulyankan\serialization\Foundation\serialization\templates\ChakravyuhFoundation\__News Detail\News Detail Section\newsReporter.yml
+ID: "1f39ae02-22c1-4381-abcd-1a2dcc121342"
+Parent: "a80f8fa4-0029-46bc-aefd-4576cd063e21"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/ChakravyuhFoundation/__News Detail/News Detail Section/newsReporter
+Signature: RBRgHpvv+7/4MdkOiiCanu6+iJT5fnheKRUXFKrHHLQ=
+Modified: 638340958928385167
