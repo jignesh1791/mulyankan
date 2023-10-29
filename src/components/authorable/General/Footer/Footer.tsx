@@ -19,7 +19,7 @@ const Footer = ({ fields }: FooterProps): JSX.Element => {
   return (
     <div className="bg-blue-600 shadow-2xl">
       <div className="container mx-auto px-6 items-center  mx-auto p-5  ">
-        <div className="flex justify-between">
+        <div className="flex flex-wrap gap-y-5 justify-between">
           <div className=" text-2xl uppercase">
             <h1 className="text-white font-bold">
               <a href="/">

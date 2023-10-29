@@ -1,5 +1,6 @@
 import { ChakravyuhComponents } from '.generated/models/Feature.ChakravyuhFeature.model';
 import { Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import { usePathname } from 'next/navigation';
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
 
 export type HeaderProps = ChakravyuhComponents.Header.Fields.HeaderComponent & {
@@ -9,6 +10,7 @@ export type HeaderProps = ChakravyuhComponents.Header.Fields.HeaderComponent & {
 };
 
 const Header = ({ fields }: HeaderProps): JSX.Element => {
+const pagename = usePathname();
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
   var HeaderLinks = fields.HeaderNavigationLinks;
@@ -27,7 +29,7 @@ const Header = ({ fields }: HeaderProps): JSX.Element => {
           <div className="w-full md:block md:w-auto" id="bs-example-navbar-collapse-1">
             <ul className="flex gap-x-4">
               {HeaderLinks.map((currentitem) => (
-                <li className='hover:text-blue-600 hover:border-b-4 border-indigo-200 border-b-indigo-500' id={currentitem.id}>
+                <li className={`hover:text-blue-600 hover:border-b-4 border-indigo-200 border-b-indigo-500 ${pagename == currentitem.fields.LinkField.value.href && 'text-blue-600 border-b-4'}`} id={currentitem.id}>
                   <Link field={currentitem.fields.LinkField}/>
                 </li>
               ))}
