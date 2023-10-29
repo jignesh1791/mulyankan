@@ -55,12 +55,12 @@ export const componentTemplate: Template<JSSTemplateArgs> = ({
   // Placeholder
   if (hasPlaceholder) {
     imports.components.push(
-      `import PlaceholderWrapper from 'src/helpers/PlaceholderWrapper/PlaceholderWrapper';`
+      `import PlaceholderWrapper from 'src/components/helpers/PlaceholderWrapper/PlaceholderWrapper';`
     );
   }
 
   imports.global.push(`import { Feature } from 'src/.generated/Feature.EnterpriseWeb.model';`);
-  imports.components.push(`import { Component } from 'src/helpers/Component';`);
+  imports.components.push(`import { Component } from 'src/components/helpers/Component';`);
 
   const placeholderContent = hasPlaceholder
     ? `<PlaceholderWrapper
