@@ -12,6 +12,11 @@ const publicUrl = getPublicUrl();
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  images: {
+    domains: ['scmulyankancm.dev.local'],
+    path: `${publicUrl}/_next/image`,
+    dangerouslyAllowSVG: true,
+  },
   // Set assetPrefix to our public URL
   assetPrefix: publicUrl,
 
