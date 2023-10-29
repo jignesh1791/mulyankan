@@ -8,7 +8,7 @@ import { RootObjectProps } from './TwoColumn.interface';
 
 //interface
 
-export default function TwoColumnWithText(props: RootObjectProps) {
+export default function TwoColumnWithText(props: any) {
   const data = props?.fields?.data?.datasource?.fields;
   const paramData = props?.params;
   const [isRevert] = useState<Boolean>(paramData?.revertColumns === '1');
@@ -26,7 +26,12 @@ export default function TwoColumnWithText(props: RootObjectProps) {
         }`}
       >
         <div className="">
-          <Image height="400" width="300" src={Placeholder} alt={data[3]?.jsonValue?.value?.alt} />
+          <Image
+            height="400"
+            width="300"
+            src={data[3]?.jsonValue?.value?.src}
+            alt={data[3]?.jsonValue?.value?.alt as string}
+          />
         </div>
         <div
           className={`flex flex-col gap-4 justify-center items-center ${
