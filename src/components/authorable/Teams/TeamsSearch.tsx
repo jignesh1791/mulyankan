@@ -260,12 +260,12 @@ const TeamSearch = ({ fields }: TeamSearchProps): JSX.Element => {
         </div>
         <div className="result-section basis-3/4">
           <h2 className="result-section-heading">Results</h2>
-          <ul className="result-section-data grid grid-cols-3">
+          <ul className="result-section-data grid grid-cols-3 gap-4">
             {primaryCards?.map((item) => {
               return (
-                <li key={item.name} className="result-section-list">
+                <li key={item.name} className="result-section-list shadow-sm bg-green-200">
                   <img
-                    className="result-section-image"
+                    className="result-section-image mt-3"
                     src={item.image?.jsonValue?.value?.src}
                     alt={item.image?.jsonValue?.value?.src}
                   />
