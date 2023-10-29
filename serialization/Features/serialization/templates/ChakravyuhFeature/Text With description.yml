@@ -1,20 +1,15 @@
 ﻿---
-ID: "fd4abfc6-56f9-498f-8080-3f3363c996f1"
-Parent: "3ec2bde6-88fe-4ee7-94c2-1e9baa8921d4"
+ID: "c8beb267-873e-4f83-9665-b8da596fbc48"
+Parent: "aa6b274e-79f4-408d-b1ca-2d8d902cf708"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/ChakravyuhFeature/components/Two Column/Two Column with Text
+Path: /sitecore/templates/Feature/ChakravyuhFeature/Text With description
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/object_alignment_vertical.png
+  Value: /~/icon/applicationsv2/32x32/text.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {F6333D0F-E8B8-45EE-B400-F01FFABA7C01}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{B72703BD-3ECD-47F4-A3E5-F74325199F64}"
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -22,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T095728Z
+      Value: 20231029T082928Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3eca880a-a157-4c84-9e36-d2275e8aaa88"
+      Value: "053717b8-b05d-4f58-8a55-7f9a22e259cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\hrupapara
+        sitecore\jay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231029T054844Z
+      Value: 20231029T083058Z
